@@ -17,7 +17,9 @@ return {
     "neovim/nvim-lspconfig",
     config = function()
       local lspconfig = require("lspconfig")
-      lspconfig.apex_ls.setup({})
+      lspconfig.apex_ls.setup({
+        apex_jar_path = '/home/tontonleric/.local/share/nvim/mason/share/apex-language-server/apex-jorje-lsp.jar'
+      })
       lspconfig.yamlls.setup({})
       lspconfig.lua_ls.setup({})
       lspconfig.tsserver.setup({})
