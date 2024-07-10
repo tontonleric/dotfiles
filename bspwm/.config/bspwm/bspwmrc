@@ -10,15 +10,22 @@ picom &
 
 bspc monitor -d I II III IV V 
 
-bspc config border_width         2
-bspc config window_gap          12
+bspc config border_width            2
+bspc config window_gap             12
+bspc config focused_border_color "#d20f39"
 
 bspc config split_ratio          0.50
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
-bspc config automatic_scheme	 spiral
+bspc config automatic_scheme	longest_side 
 
+bspc rule -a Alacritty desktop='^1' follow=on
+bspc rule -a inkdrop desktop='^1' follow=on
+bspc rule -a firefox desktop='^1' follow=on 
 
+pgrep -x alacritty > /dev/null || alacritty &
+pgrep -x inkdrop > /dev/null || inkdrop &
+pgrep -x firefox > /dev/null || firefox &
 
 
 
