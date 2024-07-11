@@ -32,7 +32,7 @@ super + y
 
 # swap the current node and the biggest window
 super + g
-	bspc node newest.marked.local -s biggest.window
+	bspc node -n biggest.window
 
 #
 # state/flags
