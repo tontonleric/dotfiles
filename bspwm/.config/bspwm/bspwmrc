@@ -20,18 +20,10 @@ bspc config gapless_monocle      true
 bspc config automatic_scheme	longest_side 
 
 bspc rule -a Alacritty desktop='^1'
-bspc rule -a inkdrop desktop='^2' 
 bspc rule -a firefox desktop='^2'  
-bspc rule -a 1password desktop='^1' focus=on
-bspc rule -a solaar desktop='^1' focus=on
 
 pgrep -x alacritty > /dev/null || alacritty &
-pgrep -x inkdrop > /dev/null || inkdrop &
 pgrep -x firefox > /dev/null || firefox &
-pgrep -x 1password > /dev/null || 1password &
-bspc node -c
-pgrep -x solaar > /dev/null || solaar &
-bspc node -c
 
 
 
