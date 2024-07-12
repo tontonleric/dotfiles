@@ -15,6 +15,7 @@ vim.filetype.add({
     trigger = 'apexcode',
     soql = 'soql',
     sosl = 'sosl',
+    norg = 'markdown'
   }
 })
 

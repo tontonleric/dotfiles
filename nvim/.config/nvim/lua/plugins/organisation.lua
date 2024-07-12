@@ -7,6 +7,11 @@ return {
       require("neorg").setup({
         load = {
           ["core.defaults"] = {},
+          ["core.export" ] = {
+            config = {
+              extensions = { "all" }
+            }
+          },
           ["core.concealer"] = { 
             config = {
               icon_preset = "varied"
