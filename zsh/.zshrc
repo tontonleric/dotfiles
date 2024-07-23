@@ -122,3 +122,4 @@ export FZF_DEFAULT_OPTS=" \
 source <(fzf --zsh)
 
 alias ls='colorls -l --gs'
+alias neorg='nvim -c "Neorg index"'

@@ -4,6 +4,8 @@
 # @version : 1.0
 #
 
+working_directory = "/home/tontonleric/Projects"
+
 # Importing the catpuccin color scheme
 import = [
 	# "~/.config/alacritty/catppuccin-mocha.toml"
@@ -11,6 +13,8 @@ import = [
 	"~/.config/alacritty/catppuccin-frappe.toml"
 	# "~/.config/alacritty/catppuccin-macchiato.toml"
 ]
+
+# On va spécifier le répertoire de départ
 
 # On va spécifier le shell utilisé
 [shell]
