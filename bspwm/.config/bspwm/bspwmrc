@@ -6,21 +6,15 @@ $HOME/.config/polybar/launch.sh
 setxkbmap us -variant alt-intl
 xrandr --output DP-4 --mode 5120x1440 --rate 120
 feh --bg-scale ~/Storages/Wallpaper/wallhaven-2yxp16_5120x1440.png &
-picom &
+picom --config ~/.config/picom/picom.conf &
 
 bspc monitor -d I II III IV V
 
-bspc config border_width 2
-bspc config window_gap 12
-bspc config focused_border_color "#d20f39"
+# bspc config border_width 2
+# bspc config window_gap 12
+bspc config focused_border_color "#40a02b"
 
 bspc config split_ratio 0.50
 bspc config borderless_monocle true
 bspc config gapless_monocle true
 bspc config automatic_scheme spiral
-
-bspc rule -a kitty desktop='^1'
-bspc rule -a firefox desktop='^2'
-
-pgrep -x kitty >/dev/null || kitty &
-pgrep -x firefox >/dev/null || firefox &
