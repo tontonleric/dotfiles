@@ -10,7 +10,7 @@ picom --config ~/.config/picom/picom.conf &
 
 bspc monitor -d I II III IV V
 
-# bspc config border_width 2
+bspc config border_width 3
 # bspc config window_gap 12
 bspc config focused_border_color "#40a02b"
 
