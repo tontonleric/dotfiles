@@ -7,6 +7,8 @@ setxkbmap us -variant alt-intl
 xrandr --output DP-4 --mode 5120x1440 --rate 120
 feh --bg-scale ~/Storages/Wallpaper/wallhaven-2yxp16_5120x1440.png &
 picom --config ~/.config/picom/picom.conf &
+dunst &
+fcitx5 -d &
 
 bspc monitor -d I II III IV V
 

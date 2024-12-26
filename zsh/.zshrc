@@ -122,7 +122,7 @@ export FZF_DEFAULT_OPTS=" \
 source <(fzf --zsh)
 
 alias ls='colorls -l --gs'
-alias neorg='nvim -c "Neorg index"'
+# alias neorg='nvim -c "Neorg index"'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

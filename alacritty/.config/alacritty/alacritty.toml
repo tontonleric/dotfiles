@@ -1,23 +1,8 @@
-#
-# @description : My config file for alacritty
-# @author : Eric Wartelle
-# @version : 1.0
-#
-
-working_directory = "/home/tontonleric/Stockages/Projects"
-
-# Importing the catpuccin color scheme
-import = [
-  # "~/.config/alacritty/catppuccin-mocha.toml"
-  # "~/.config/alacritty/catppuccin-latte.toml"
-  "~/.config/alacritty/catppuccin-frappe.toml",
-  # "~/.config/alacritty/catppuccin-macchiato.toml"
-]
 
 # On va spécifier le répertoire de départ
 
 # On va spécifier le shell utilisé
-[shell]
+[terminal.shell]
 program = "/usr/bin/tmux"
 args = []
 
@@ -34,9 +19,28 @@ opacity = 0.95
 size = 12.0
 
 [font.normal]
-family = "FiraCode Nerd Font"
+family = "0xProto Nerd Font"
 style = "Regular"
 
 [font.bold]
 family = "FiraCode Nerd Font"
 style = "Bold"
+
+[general]
+#
+# @description : My config file for alacritty
+# @author : Eric Wartelle
+# @version : 1.0
+#
+
+working_directory = "/home/tontonleric/Projects"
+
+# Importing the catpuccin color scheme
+import = [
+  # "~/.config/alacritty/catppuccin-mocha.toml"
+  # "~/.config/alacritty/catppuccin-latte.toml"
+  "~/.config/alacritty/catppuccin-frappe.toml",
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+]
+
+[terminal]
