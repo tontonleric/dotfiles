@@ -9,7 +9,7 @@ return {
     "williamboman/mason-lspconfig",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "apex_ls", "lua_ls", "yamlls", "tsserver", "pyright" }
+        ensure_installed = { "apex_ls", "lua_ls", "yamlls", "pyright" }
       })
     end
   },
@@ -22,7 +22,6 @@ return {
       })
       lspconfig.yamlls.setup({})
       lspconfig.lua_ls.setup({})
-      lspconfig.tsserver.setup({})
       lspconfig.pyright.setup({})
 
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
