@@ -6,7 +6,7 @@ return {
       local configs = require("nvim-treesitter.configs")
 
       configs.setup({
-        ensure_installed = { "c", "lua", "apex", "soql", "sosl", "javascript", "html", "query", "toml", "python" },
+        ensure_installed = { "latex", "c", "lua", "apex", "soql", "sosl", "javascript", "html", "query", "toml", "python" },
         sync_install = false,
         highlight = { enable = true },
         indent = { enable = true },
