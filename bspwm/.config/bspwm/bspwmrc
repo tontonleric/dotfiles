@@ -5,7 +5,7 @@ pgrep -x sxhkd >/dev/null || sxhkd &
 $HOME/.config/polybar/launch.sh
 setxkbmap us -variant alt-intl
 xrandr --output DP-4 --mode 5120x1440 --rate 120
-feh --bg-scale ~/Storages/Wallpaper/wallhaven-2yxp16_5120x1440.png &
+feh --bg-scale ~/Storages/Wallpaper/2k\ -\ Ultrawide/wallhaven-9d6xmw.jpg &
 picom --config ~/.config/picom/picom.conf &
 dunst &
 fcitx5 -d &
