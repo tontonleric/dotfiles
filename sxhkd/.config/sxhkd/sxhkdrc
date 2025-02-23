@@ -116,10 +116,18 @@ super + alt + shift + {h,j,k,l}
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-
+#
+# Gestion de la résolution
+#
 super + alt + shift + 1
   xrandr --output DP-4 --mode 5120x1440 --rate 120
 
 super + alt + shift + 2
   xrandr --output DP-4 --mode 2560x1440 --rate 120
+
+#
+# Affiche d'informations
+#
+super + F1
+  ~/Storages/Projects/dotfiles/scripts/displayhelp.sh
 

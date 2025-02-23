@@ -9,7 +9,7 @@ return {
     "williamboman/mason-lspconfig",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "apex_ls", "lua_ls", "yamlls", "pyright", "texlab", "rust-analyzer" }
+        ensure_installed = { "apex_ls", "lua_ls", "yamlls", "pyright", "texlab", "rust-analyzer", "ccls" }
       })
     end
   },
