@@ -2,6 +2,10 @@
 # wm independent hotkeys
 #
 
+# terminal emulator
+super + Return
+	ghostty
+
 # program launcher
 super + space
 	rofi -show drun
