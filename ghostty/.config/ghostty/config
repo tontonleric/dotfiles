@@ -1,1 +1,2 @@
-window-decoration = true
+window-decoration = false
+theme = catppuccin-mocha
