@@ -5,7 +5,7 @@ pgrep -x sxhkd >/dev/null || sxhkd &
 $HOME/.config/polybar/launch.sh
 setxkbmap us -variant alt-intl
 xrandr --output DP-4 --mode 5120x1440 --rate 120
-pgrep -x feh >/dev/null || feh --bg-scale ~/Pictures/Wallpaper/Ultrawide/wallhaven-9dkprw.png &
+pgrep -x feh >/dev/null || feh --bg-scale ~/Pictures/Wallpaper/Ultrawide/SF/wallhaven-9d6xmw.jpg &
 pgrep -x picom >/dev/null || picom --config ~/.config/picom/picom.conf &
 pgrep -x dunst >/dev/null || dunst &
 pgrep -x fcitx5 >/dev/null || fcitx5 -d &
