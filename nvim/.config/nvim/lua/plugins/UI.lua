@@ -25,5 +25,24 @@ return {
 			vim.keymap.set({'n','c'},'<Leader>n','<cmd>BufferLineCycleNext<cr>')
 			vim.keymap.set({'n','c'},'<Leader>p','<cmd>BufferLineCyclePrev<cr>')
 		end
+	},
+	{
+    		'nvim-lualine/lualine.nvim',
+    		dependencies = { 'nvim-tree/nvim-web-devicons' },
+		config = function()
+			local lualine = require("lualine")
+			lualine.setup({
+			})
+		end
+	},
+	{
+  		"folke/noice.nvim",
+		event = "VeryLazy",
+		opts = {
+  		},
+ 		dependencies = {
+    			"MunifTanjim/nui.nvim",
+    			"rcarriga/nvim-notify",
+    		}
 	}
 }
