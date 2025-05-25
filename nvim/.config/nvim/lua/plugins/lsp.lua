@@ -31,5 +31,11 @@ return {
 
 			vim.lsp.set_log_level("debug")
 		end
+	},
+	{
+		"jose-elias-alvarez/null-ls.nvim",
+		config = function()
+			local null_ls = require("null-ls")
+		end
 	}
 }
