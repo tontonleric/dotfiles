@@ -5,6 +5,7 @@ pgrep -x sxhkd >/dev/null || sxhkd &
 $HOME/.config/polybar/launch.sh
 setxkbmap us -variant alt-intl
 xrandr --output DP-4 --mode 5120x1440 --rate 60
+xrandr --output HDMI-0 --mode 1920x1080 --rate 60 --left-of DP-4
 xset s off
 xset -dpms
 pgrep -x feh >/dev/null || feh --bg-scale ~/Pictures/Wallpaper/Ultrawide/SimonStalenhag/wallhaven-lm1z2l.jpg &
@@ -16,7 +17,11 @@ pgrep -x solaar >/dev/null || solaar &
 pgrep -x ckb-next >/dev/null || ckb-next &
 
 # Configuration écran virtuel
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -f HDMI-0
+bspc monitor -d LeftI LeftII LeftIII LeftIV
+
+bspc monitor -f DP-4
+bspc monitor -d MainI MainII MainIII MainIV
 
 bspc config border_width 3
 bspc config focused_border_color "#ff79c6"
