@@ -1,0 +1,208 @@
+21:02:04.638: Using EGL/X11
+21:02:04.638: CPU Name: AMD Ryzen 9 5950X 16-Core Processor
+21:02:04.638: CPU Speed: 4738.473MHz
+21:02:04.639: Physical Cores: 16, Logical Cores: 32
+21:02:04.639: Physical Memory: 32000MB Total, 8364MB Free
+21:02:04.639: Kernel Version: Linux 6.16.8-arch3-1
+21:02:04.639: Distribution: "Arch Linux" Unknown
+21:02:04.639: Desktop Environment: 
+21:02:04.639: Session Type: x11
+21:02:04.639: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+21:02:04.640: Current Date/Time: 2025-09-30, 09:02:04 PM
+21:02:04.640: Browser Hardware Acceleration: true
+21:02:04.640: Qt Version: 6.9.2 (runtime), 6.9.2 (compiled)
+21:02:04.640: Portable mode: false
+21:02:04.664: OBS 31.1.2 (linux)
+21:02:04.664: ---------------------------------
+21:02:04.665: ---------------------------------
+21:02:04.665: audio settings reset:
+21:02:04.665: 	samples per sec: 48000
+21:02:04.665: 	speakers:        2
+21:02:04.665: 	max buffering:   960 milliseconds
+21:02:04.665: 	buffering type:  dynamically increasing
+21:02:04.666: ---------------------------------
+21:02:04.666: Initializing OpenGL...
+21:02:04.849: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+21:02:04.849: OpenGL loaded successfully, version 3.3.0 NVIDIA 580.82.09, shading language 3.30 NVIDIA via Cg compiler
+21:02:04.869: ---------------------------------
+21:02:04.869: video settings reset:
+21:02:04.869: 	base resolution:   1920x1080
+21:02:04.869: 	output resolution: 1920x1080
+21:02:04.869: 	downscale filter:  Bicubic
+21:02:04.869: 	fps:               60/1
+21:02:04.869: 	format:            NV12
+21:02:04.869: 	YUV mode:          Rec. 709/Partial
+21:02:04.869: NV12 texture support enabled
+21:02:04.869: P010 texture support not available
+21:02:04.869: Audio monitoring device:
+21:02:04.869: 	name: Default
+21:02:04.869: 	id: default
+21:02:04.952: ---------------------------------
+21:02:04.959: Failed to load 'en-US' text for module: 'decklink-captions.so'
+21:02:04.967: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+21:02:04.974: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:02:04.974: Failed to initialize module 'decklink.so'
+21:02:05.089: [pipewire] No capture sources available
+21:02:05.110: v4l2loopback not installed, virtual camera not registered
+21:02:05.151: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+21:02:05.151: FFmpeg VAAPI H264 encoding not supported
+21:02:05.151: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+21:02:05.151: FFmpeg VAAPI AV1 encoding not supported
+21:02:05.151: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+21:02:05.151: FFmpeg VAAPI HEVC encoding not supported
+21:02:05.719: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 13.0, AV1 supported: false
+21:02:05.784: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+21:02:05.784: 
+21:02:05.784: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+21:02:05.811: ---------------------------------
+21:02:05.811:   Loaded Modules:
+21:02:05.811:     text-freetype2.so
+21:02:05.811:     rtmp-services.so
+21:02:05.811:     obs-x264.so
+21:02:05.811:     obs-webrtc.so
+21:02:05.811:     obs-vst.so
+21:02:05.811:     obs-transitions.so
+21:02:05.811:     obs-qsv11.so
+21:02:05.811:     obs-outputs.so
+21:02:05.811:     obs-nvenc.so
+21:02:05.811:     obs-libfdk.so
+21:02:05.811:     obs-filters.so
+21:02:05.811:     obs-ffmpeg.so
+21:02:05.811:     linux-v4l2.so
+21:02:05.811:     linux-pulseaudio.so
+21:02:05.811:     linux-pipewire.so
+21:02:05.811:     linux-jack.so
+21:02:05.811:     linux-capture.so
+21:02:05.811:     linux-alsa.so
+21:02:05.811:     image-source.so
+21:02:05.811:     frontend-tools.so
+21:02:05.811:     decklink-output-ui.so
+21:02:05.811:     decklink-captions.so
+21:02:05.811: ---------------------------------
+21:02:05.811: ---------------------------------
+21:02:05.811: Available Encoders:
+21:02:05.811:   Video Encoders:
+21:02:05.811: 	- ffmpeg_svt_av1 (SVT-AV1)
+21:02:05.811: 	- ffmpeg_aom_av1 (AOM AV1)
+21:02:05.811: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+21:02:05.811: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+21:02:05.811: 	- obs_x264 (x264)
+21:02:05.811:   Audio Encoders:
+21:02:05.811: 	- ffmpeg_aac (FFmpeg AAC)
+21:02:05.811: 	- ffmpeg_opus (FFmpeg Opus)
+21:02:05.811: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+21:02:05.811: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+21:02:05.811: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+21:02:05.811: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+21:02:05.811: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+21:02:05.811: 	- libfdk_aac (libfdk AAC)
+21:02:05.811: ==== Startup complete ===============================================
+21:02:05.838: All scene data cleared
+21:02:05.838: ------------------------------------------------
+21:02:05.844: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.8) 15.0.0'
+21:02:05.844: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+21:02:05.844: pulse-input: Started recording from 'alsa_output.pci-0000_0b_00.4.analog-stereo.monitor' (default)
+21:02:05.858: pulse-am: Prevented feedback-loop in 'default'
+21:02:05.858: [Loaded global audio device]: 'Desktop Audio'
+21:02:05.858:     - monitoring: monitor and output
+21:02:05.859: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.8) 15.0.0'
+21:02:05.859: pulse-input: Audio format: float32le, 48000 Hz, 4 channels
+21:02:05.859: pulse-input: Started recording from 'alsa_input.usb-BEACN_BEACN_Mic_0011220800828B-00.analog-surround-40' (default)
+21:02:05.875: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.8) 15.0.0'
+21:02:05.876: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+21:02:05.876: pulse-am: Started Monitoring in 'alsa_output.pci-0000_0b_00.4.analog-stereo'
+21:02:05.876: [Loaded global audio device]: 'Mic/Aux'
+21:02:05.876:     - monitoring: monitor and output
+21:02:05.908: v4l2-input: Start capture from /dev/video0
+21:02:05.909: v4l2-input: Input: 0
+21:02:05.922: v4l2-input: Resolution: 1920x1080
+21:02:05.922: v4l2-input: Pixelformat: MJPG
+21:02:05.922: v4l2-input: Linesize: 0 Bytes
+21:02:05.922: v4l2-input: Framerate: 60.00 fps
+21:02:05.926: v4l2-input: /dev/video0: select timeout set to 83333 (5x frame periods)
+21:02:05.927: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.8) 15.0.0'
+21:02:05.927: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+21:02:05.927: pulse-input: Started recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+21:02:05.933: Switched to scene 'Scene Super Game Boy - Seiken Densetsu'
+21:02:05.933: ------------------------------------------------
+21:02:05.933: Loaded scenes:
+21:02:05.933: - scene 'Scene d'attente':
+21:02:05.933:     - source: 'Image' (image_source)
+21:02:05.933:     - source: 'Text (FreeType 2)' (text_ft2_source_v2)
+21:02:05.933: - scene 'Scene Super Game Boy - Seiken Densetsu':
+21:02:05.933:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+21:02:05.933:     - source: 'Color Source' (color_source_v3)
+21:02:05.933:     - source: 'Titre' (text_ft2_source_v2)
+21:02:05.933:     - source: 'Text (FreeType 2) 2' (text_ft2_source_v2)
+21:02:05.933:         - filter: 'Scroll' (scroll_filter)
+21:02:05.933:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+21:02:05.933:     - source: 'Pochette' (image_source)
+21:02:05.933: ------------------------------------------------
+21:02:06.011: v4l2-input: /dev/video0: select timed out
+21:02:06.011: v4l2-input: /dev/video0: failed to log status
+21:02:06.094: v4l2-input: /dev/video0: select timed out
+21:02:06.094: v4l2-input: /dev/video0: failed to log status
+21:02:06.393: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+21:02:06.393: 
+21:02:21.381: [obs-nvenc: 'simple_video_recording'] settings:
+21:02:21.381: 	codec:        H264
+21:02:21.381: 	rate_control: CQP
+21:02:21.381: 	cqp:          23
+21:02:21.381: 	keyint:       250
+21:02:21.381: 	preset:       p5
+21:02:21.381: 	tuning:       hq
+21:02:21.381: 	multipass:    qres
+21:02:21.381: 	profile:      high
+21:02:21.381: 	width:        1920
+21:02:21.381: 	height:       1080
+21:02:21.381: 	b-frames:     2
+21:02:21.381: 	b-ref-mode:   0
+21:02:21.381: 	lookahead:    true (8 frames)
+21:02:21.381: 	aq:           true
+21:02:21.381: 
+21:02:21.422: libfdk_aac encoder created
+21:02:21.422: libfdk_aac bitrate: 192, channels: 2
+21:02:21.449: ==== Recording Start ===============================================
+21:02:21.449: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/tontonleric/2025-09-30 21-02-21.mkv'...
+21:06:40.782: adding 64 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Audio Input Capture (PulseAudio))
+21:06:40.782: 
+22:26:37.327: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/tontonleric/2025-09-30 21-02-21.mkv' stopped
+22:26:37.328: Output 'simple_file_output': stopping
+22:26:37.328: Output 'simple_file_output': Total frames output: 303332
+22:26:37.328: Output 'simple_file_output': Total drawn frames: 303310 (303353 attempted)
+22:26:37.328: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 43 (0.0%)
+22:26:37.328: Video stopped, number of skipped frames due to encoding lag: 43/303352 (0.0%)
+22:26:37.328: ==== Recording Stop ================================================
+22:26:37.590: libfdk_aac encoder destroyed
+22:32:11.645: v4l2-input: /dev/video0: select timed out
+22:32:11.645: v4l2-input: /dev/video0: failed to log status
+22:32:11.813: v4l2-input: /dev/video0: select timed out
+22:32:11.813: v4l2-input: /dev/video0: failed to log status
+22:33:30.529: v4l2-input: /dev/video0: select timed out
+22:33:30.529: v4l2-input: /dev/video0: failed to log status
+22:33:30.701: v4l2-input: /dev/video0: select timed out
+22:33:30.701: v4l2-input: /dev/video0: failed to log status
+22:34:49.429: v4l2-input: /dev/video0: select timed out
+22:34:49.429: v4l2-input: /dev/video0: failed to log status
+22:34:49.601: v4l2-input: /dev/video0: select timed out
+22:34:49.601: v4l2-input: /dev/video0: failed to log status
+22:37:27.128: v4l2-input: /dev/video0: select timed out
+22:37:27.128: v4l2-input: /dev/video0: failed to log status
+22:37:27.310: v4l2-input: /dev/video0: select timed out
+22:37:27.310: v4l2-input: /dev/video0: failed to log status
+22:38:45.976: v4l2-input: /dev/video0: select timed out
+22:38:45.976: v4l2-input: /dev/video0: failed to log status
+22:38:46.157: v4l2-input: /dev/video0: select timed out
+22:38:46.157: v4l2-input: /dev/video0: failed to log status
+22:40:06.545: v4l2-input: /dev/video0: select timed out
+22:40:06.545: v4l2-input: /dev/video0: failed to log status
+22:40:06.709: v4l2-input: /dev/video0: select timed out
+22:40:06.709: v4l2-input: /dev/video0: failed to log status
+22:41:23.777: v4l2-input: /dev/video0: select timed out
+22:41:23.777: v4l2-input: /dev/video0: failed to log status
+22:41:23.946: v4l2-input: /dev/video0: select timed out
+22:41:23.946: v4l2-input: /dev/video0: failed to log status
+22:42:42.593: v4l2-input: /dev/video0: select timed out
+22:42:42.593: v4l2-input: /dev/video0: failed to log status
+22:42:42.761: v4l2-input: /dev/video0: select timed out
+22:42:42.761: v4l2-input: /dev/video0: failed to log status

@@ -6,12 +6,12 @@
             "name": "Scene"
         }
     ],
-    "name": "Untitled",
+    "name": "DansLeRétro-PS2",
     "sources": [
         {
             "prev_ver": 520159234,
             "name": "Scene",
-            "uuid": "d8d58ff2-d6ea-435b-a759-52f31e47c5a0",
+            "uuid": "7bd803a3-f7c7-42a0-a446-b5944ac179d7",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -46,21 +46,21 @@
             "name": "Cut",
             "duration": 300,
             "hotkeys": [],
-            "id": 1,
+            "id": 4,
             "fade_to_black": false
         },
         {
             "name": "Fade",
             "duration": 300,
             "hotkeys": [],
-            "id": 2,
+            "id": 5,
             "fade_to_black": false
         },
         {
             "name": "Fade",
             "duration": 300,
             "hotkeys": [],
-            "id": 3,
+            "id": 6,
             "fade_to_black": true
         }
     ],
@@ -71,7 +71,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -12,
+    "scaling_level": -3,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {
