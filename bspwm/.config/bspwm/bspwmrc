@@ -4,23 +4,23 @@ pgrep -x sxhkd >/dev/null || sxhkd &
 # pgrep -x polybar > /dev/null || polybar &
 $HOME/.config/polybar/launch.sh
 setxkbmap us -variant alt-intl
-xrandr --output DP-4 --mode 5120x1440 --rate 60
-xrandr --output HDMI-0 --mode 1920x1080 --rate 60 --left-of DP-4
+xrandr --output DP-2 --mode 5120x1440 --rate 60
+xrandr --output HDMI-0 --mode 1920x1080 --rate 60 --left-of DP-2
 xset s off
 xset -dpms
-pgrep -x feh >/dev/null || feh --bg-scale ~/Pictures/Wallpaper/Standard/SimonStalenhag/wallhaven-gjoyr3.jpg ~/Pictures/Wallpaper/Ultrawide/SimonStalenhag/wallhaven-lm1z2l.jpg &
+pgrep -x feh >/dev/null || feh --bg-scale ~/Projects/ImageRepo/Wallpaper/Ultrawide/SimonStalenhag/wallhaven-lm1z2l.jpg &
 pgrep -x picom >/dev/null || picom --config ~/.config/picom/picom.conf &
 pgrep -x dunst >/dev/null || dunst &
 pgrep -x fcitx5 >/dev/null || fcitx5 -d &
 pgrep -x 1password >/dev/null || 1password &
-pgrep -x solaar >/dev/null || solaar &
+# pgrep -x solaar >/dev/null || solaar & <= en attendand une update
 pgrep -x ckb-next >/dev/null || ckb-next &
 
 # Configuration écran virtuel
 bspc monitor -f HDMI-0
 bspc monitor -d I II
 
-bspc monitor -f DP-4
+bspc monitor -f DP-2
 bspc monitor -d III IV V VI VII VIII IX X
 
 bspc config border_width 3

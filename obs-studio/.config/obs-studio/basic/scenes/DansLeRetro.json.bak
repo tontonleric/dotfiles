@@ -1,6 +1,6 @@
 {
     "DesktopAudioDevice1": {
-        "prev_ver": 520159234,
+        "prev_ver": 536870913,
         "name": "Desktop Audio",
         "uuid": "4913d162-7524-4514-ba40-402a99b51900",
         "id": "pulse_output_capture",
@@ -31,7 +31,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 520159234,
+        "prev_ver": 536870913,
         "name": "Mic/Aux",
         "uuid": "0f5897f8-25cd-42a5-a959-5d9bef72d65a",
         "id": "pulse_input_capture",
@@ -61,8 +61,8 @@
         "monitoring_type": 2,
         "private_settings": {}
     },
-    "current_scene": "Scene Super Game Boy - Générique",
-    "current_program_scene": "Scene Super Game Boy - Générique",
+    "current_scene": "Scene Super Game Boy - Seiken Densetsu",
+    "current_program_scene": "Scene Super Game Boy - Seiken Densetsu",
     "scene_order": [
         {
             "name": "Scene Super Game Boy - Générique"
@@ -74,13 +74,13 @@
     "name": "DansLeRetro",
     "sources": [
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870913,
             "name": "Scene Super Game Boy - Seiken Densetsu",
             "uuid": "57b166c3-01ad-4d35-9b3d-9be5ef40956c",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 14,
+                "id_counter": 16,
                 "custom_size": false,
                 "items": [
                     {
@@ -112,12 +112,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.125,
-                            "y": 1.5
+                            "x": 0.75,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 1.125,
-                            "y": 1.5
+                            "x": 0.75,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 1920.0,
@@ -194,61 +194,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Titre",
-                        "source_uuid": "6ab2af25-6b23-47ac-9688-08ce62ea0aae",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 10,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1554.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": 1.100000023841858,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.1354481428861618,
-                            "y": 0.13461539149284363
-                        },
-                        "scale_rel": {
-                            "x": 0.1354481428861618,
-                            "y": 0.13461539149284363
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "Text (FreeType 2) 2",
                         "source_uuid": "e0895467-fb7e-4556-a98e-07e8471f2cda",
                         "visible": true,
@@ -269,12 +214,12 @@
                         "id": 11,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1470.0,
-                            "y": 103.0
+                            "x": 1489.5,
+                            "y": 182.0
                         },
                         "pos_rel": {
-                            "x": 0.9444444179534912,
-                            "y": -0.809259295463562
+                            "x": 0.980555534362793,
+                            "y": -0.6629629731178284
                         },
                         "scale": {
                             "x": 0.07362714409828186,
@@ -304,8 +249,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Capture du son de la console",
-                        "source_uuid": "6334d230-fb14-4108-94e9-356329c85dba",
+                        "name": "Pochette",
+                        "source_uuid": "5aad38ba-1fd7-4dbc-92cb-096f636d8059",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -321,7 +266,62 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 12,
+                        "id": 13,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 1533.0,
+                            "y": 725.5
+                        },
+                        "pos_rel": {
+                            "x": 1.0611110925674438,
+                            "y": 0.3435184955596924
+                        },
+                        "scale": {
+                            "x": 0.5960000157356262,
+                            "y": 0.5957821011543274
+                        },
+                        "scale_rel": {
+                            "x": 0.5960000157356262,
+                            "y": 0.5957821011543274
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Audio Input Capture (PulseAudio)",
+                        "source_uuid": "a713e1c0-95d3-4682-a824-4b09955f9d70",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 15,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -359,8 +359,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Pochette",
-                        "source_uuid": "5aad38ba-1fd7-4dbc-92cb-096f636d8059",
+                        "name": "SeikenTitre",
+                        "source_uuid": "03d9eb9e-7b36-4091-b4f1-076ee2a53328",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -376,23 +376,23 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 13,
+                        "id": 16,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1534.0,
-                            "y": 676.0
+                            "x": 1518.0,
+                            "y": 13.0
                         },
                         "pos_rel": {
-                            "x": 1.0629630088806152,
-                            "y": 0.25185179710388184
+                            "x": 1.0333333015441895,
+                            "y": -0.9759259223937988
                         },
                         "scale": {
-                            "x": 0.5960000157356262,
-                            "y": 0.5957821011543274
+                            "x": 0.5698924660682678,
+                            "y": 0.5714285969734192
                         },
                         "scale_rel": {
-                            "x": 0.5960000157356262,
-                            "y": 0.5957821011543274
+                            "x": 0.5698924660682678,
+                            "y": 0.5714285969734192
                         },
                         "bounds": {
                             "x": 0.0,
@@ -432,14 +432,14 @@
                 "libobs.hide_scene_item.8": [],
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
-                "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": [],
                 "libobs.show_scene_item.11": [],
                 "libobs.hide_scene_item.11": [],
-                "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": [],
                 "libobs.show_scene_item.13": [],
-                "libobs.hide_scene_item.13": []
+                "libobs.hide_scene_item.13": [],
+                "libobs.show_scene_item.15": [],
+                "libobs.hide_scene_item.15": [],
+                "libobs.show_scene_item.16": [],
+                "libobs.hide_scene_item.16": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -448,7 +448,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870913,
             "name": "Capture de la vidéo de la console",
             "uuid": "41041115-f244-4a36-be4e-3874db75c905",
             "id": "v4l2_input",
@@ -476,7 +476,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870913,
             "name": "Color Source",
             "uuid": "5ca9d651-d425-4114-afe5-7f1623d1ca72",
             "id": "color_source",
@@ -502,35 +502,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
-            "name": "Titre",
-            "uuid": "6ab2af25-6b23-47ac-9688-08ce62ea0aae",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
-            "settings": {
-                "text": "Seiken Densetsu",
-                "color1": 4281422755,
-                "color2": 4279962183
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520159234,
+            "prev_ver": 536870913,
             "name": "Text (FreeType 2) 2",
             "uuid": "e0895467-fb7e-4556-a98e-07e8471f2cda",
             "id": "text_ft2_source",
@@ -560,7 +532,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520159234,
+                    "prev_ver": 536870913,
                     "name": "Scroll",
                     "uuid": "b9521c06-db84-4579-962c-b3239ccb2b38",
                     "id": "scroll_filter",
@@ -592,7 +564,7 @@
             ]
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870913,
             "name": "Capture du son de la console",
             "uuid": "6334d230-fb14-4108-94e9-356329c85dba",
             "id": "pulse_input_capture",
@@ -623,7 +595,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870913,
             "name": "Pochette",
             "uuid": "5aad38ba-1fd7-4dbc-92cb-096f636d8059",
             "id": "image_source",
@@ -649,7 +621,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870913,
             "name": "Scene Super Game Boy - Générique",
             "uuid": "25465017-428f-4292-8449-de0c886154c6",
             "id": "scene",
@@ -769,61 +741,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Titre",
-                        "source_uuid": "6ab2af25-6b23-47ac-9688-08ce62ea0aae",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1554.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": 1.100000023841858,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.1354481428861618,
-                            "y": 0.13461539149284363
-                        },
-                        "scale_rel": {
-                            "x": 0.1354481428861618,
-                            "y": 0.13461539149284363
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "Capture du son de la console",
                         "source_uuid": "6334d230-fb14-4108-94e9-356329c85dba",
                         "visible": true,
@@ -897,8 +814,6 @@
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
                 "libobs.hide_scene_item.2": [],
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": []
             },
@@ -906,6 +821,63 @@
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536870913,
+            "name": "Audio Input Capture (PulseAudio)",
+            "uuid": "a713e1c0-95d3-4682-a824-4b09955f9d70",
+            "id": "pulse_input_capture",
+            "versioned_id": "pulse_input_capture",
+            "settings": {
+                "device_id": "alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536870913,
+            "name": "SeikenTitre",
+            "uuid": "03d9eb9e-7b36-4091-b4f1-076ee2a53328",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "/home/tontonleric/Projects/ImageRepo/Pochette/Nintendo/GameBoy/Titre.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
             "private_settings": {}
         }
     ],
