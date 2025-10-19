@@ -1,0 +1,731 @@
+14:53:44.933: Using EGL/X11
+14:53:44.933: CPU Name: AMD Ryzen 9 5950X 16-Core Processor
+14:53:44.933: CPU Speed: 5024.889MHz
+14:53:44.934: Physical Cores: 16, Logical Cores: 32
+14:53:44.934: Physical Memory: 32006MB Total, 5628MB Free
+14:53:44.934: Kernel Version: Linux 6.17.2-arch1-1
+14:53:44.934: Distribution: "Arch Linux" Unknown
+14:53:44.934: Desktop Environment: bspwm (bspwm)
+14:53:44.934: Session Type: x11
+14:53:44.934: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+14:53:44.935: Current Date/Time: 2025-10-17, 02:53:44 PM
+14:53:44.935: Browser Hardware Acceleration: true
+14:53:44.935: Qt Version: 6.10.0 (runtime), 6.9.2 (compiled)
+14:53:44.935: Portable mode: false
+14:53:44.961: OBS 32.0.1 (linux)
+14:53:44.961: ---------------------------------
+14:53:44.961: ---------------------------------
+14:53:44.961: audio settings reset:
+14:53:44.961: 	samples per sec: 48000
+14:53:44.961: 	speakers:        2
+14:53:44.961: 	max buffering:   960 milliseconds
+14:53:44.961: 	buffering type:  dynamically increasing
+14:53:44.962: ---------------------------------
+14:53:44.962: Initializing OpenGL...
+14:53:45.160: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+14:53:45.160: OpenGL loaded successfully, version 3.3.0 NVIDIA 580.95.05, shading language 3.30 NVIDIA via Cg compiler
+14:53:45.181: ---------------------------------
+14:53:45.181: video settings reset:
+14:53:45.181: 	base resolution:   1920x1080
+14:53:45.181: 	output resolution: 1920x1080
+14:53:45.181: 	downscale filter:  Bicubic
+14:53:45.181: 	fps:               60/1
+14:53:45.181: 	format:            NV12
+14:53:45.181: 	YUV mode:          Rec. 709/Partial
+14:53:45.182: NV12 texture support enabled
+14:53:45.182: P010 texture support not available
+14:53:45.182: Audio monitoring device:
+14:53:45.182: 	name: Default
+14:53:45.182: 	id: default
+14:53:45.246: ---------------------------------
+14:53:45.248: Failed to load 'en-US' text for module: 'decklink-captions.so'
+14:53:45.249: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+14:53:45.250: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+14:53:45.250: Failed to initialize module 'decklink.so'
+14:53:45.332: [pipewire] No capture sources available
+14:53:45.339: v4l2loopback not installed, virtual camera not registered
+14:53:45.350: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+14:53:45.350: FFmpeg VAAPI H264 encoding not supported
+14:53:45.350: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+14:53:45.350: FFmpeg VAAPI AV1 encoding not supported
+14:53:45.350: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+14:53:45.350: FFmpeg VAAPI HEVC encoding not supported
+14:53:45.893: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 13.0, AV1 supported: false
+14:53:45.912: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+14:53:45.912: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.9.2 | Qt version (run-time): 6.10.0
+14:53:45.912: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+14:53:45.916: [obs-websocket] [obs_module_load] Module loaded.
+14:53:45.920: ---------------------------------
+14:53:45.920:   Loaded Modules:
+14:53:45.920:     text-freetype2.so
+14:53:45.920:     rtmp-services.so
+14:53:45.920:     obs-x264.so
+14:53:45.920:     obs-websocket.so
+14:53:45.920:     obs-webrtc.so
+14:53:45.920:     obs-vst.so
+14:53:45.920:     obs-transitions.so
+14:53:45.920:     obs-qsv11.so
+14:53:45.920:     obs-outputs.so
+14:53:45.920:     obs-nvenc.so
+14:53:45.920:     obs-libfdk.so
+14:53:45.920:     obs-filters.so
+14:53:45.920:     obs-ffmpeg.so
+14:53:45.920:     linux-v4l2.so
+14:53:45.920:     linux-pulseaudio.so
+14:53:45.920:     linux-pipewire.so
+14:53:45.920:     linux-jack.so
+14:53:45.920:     linux-capture.so
+14:53:45.920:     linux-alsa.so
+14:53:45.920:     image-source.so
+14:53:45.920:     frontend-tools.so
+14:53:45.920:     decklink-output-ui.so
+14:53:45.920:     decklink-captions.so
+14:53:45.920: ---------------------------------
+14:53:45.920: ---------------------------------
+14:53:45.920: Available Encoders:
+14:53:45.920:   Video Encoders:
+14:53:45.920: 	- ffmpeg_svt_av1 (SVT-AV1)
+14:53:45.920: 	- ffmpeg_aom_av1 (AOM AV1)
+14:53:45.920: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+14:53:45.920: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+14:53:45.920: 	- obs_x264 (x264)
+14:53:45.920:   Audio Encoders:
+14:53:45.920: 	- ffmpeg_aac (FFmpeg AAC)
+14:53:45.920: 	- ffmpeg_opus (FFmpeg Opus)
+14:53:45.920: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+14:53:45.920: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+14:53:45.920: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+14:53:45.920: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+14:53:45.920: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+14:53:45.920: 	- libfdk_aac (libfdk AAC)
+14:53:45.920: ==== Startup complete ===============================================
+14:53:45.943: All scene data cleared
+14:53:45.943: ------------------------------------------------
+14:53:45.965: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:53:45.965: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+14:53:45.965: pulse-input: Started recording from 'alsa_output.pci-0000_2d_00.4.analog-stereo.monitor' (default)
+14:53:45.979: pulse-am: Prevented feedback-loop in 'default'
+14:53:45.979: [Loaded global audio device]: 'Desktop Audio'
+14:53:45.979:     - monitoring: monitor and output
+14:53:45.979: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:53:45.979: pulse-input: Audio format: float32le, 48000 Hz, 4 channels
+14:53:45.979: pulse-input: Started recording from 'alsa_input.usb-BEACN_BEACN_Mic_0011220800828B-00.analog-surround-40' (default)
+14:53:45.986: Device for 'Audio Output Capture' source is also used for audio monitoring:
+14:53:45.986: Deduplication logic is being applied to all monitored sources.
+14:53:45.986: 
+14:53:45.994: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:53:45.994: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+14:53:45.994: pulse-am: Started Monitoring in 'alsa_output.pci-0000_2d_00.4.analog-stereo'
+14:53:45.994: [Loaded global audio device]: 'Mic/Aux'
+14:53:45.994:     - monitoring: monitor and output
+14:53:45.995: v4l2-input: Start capture from /dev/video0
+14:53:46.048: v4l2-input: Input: 0
+14:53:46.061: v4l2-input: Resolution: 1920x1080
+14:53:46.061: v4l2-input: Pixelformat: MJPG
+14:53:46.061: v4l2-input: Linesize: 0 Bytes
+14:53:46.061: v4l2-input: Framerate: 60.00 fps
+14:53:46.064: v4l2-input: /dev/video0: select timeout set to 83333 (5x frame periods)
+14:53:46.065: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:53:46.065: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:53:46.065: pulse-input: Started recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:53:46.071: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:53:46.071: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:53:46.071: pulse-input: Started recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:53:46.082: Switched to scene 'Scene Super Game Boy - Seiken Densetsu'
+14:53:46.082: ------------------------------------------------
+14:53:46.082: Loaded scenes:
+14:53:46.082: - scene 'Scene Super Game Boy - Générique':
+14:53:46.082:     - source: 'Capture de la vidéo de la console' (v4l2_input)
+14:53:46.082:     - source: 'Color Source' (color_source_v3)
+14:53:46.082:     - source: 'Capture du son de la console' (pulse_input_capture)
+14:53:46.082: - scene 'Scene Super Game Boy - Seiken Densetsu':
+14:53:46.084:     - source: 'Capture de la vidéo de la console' (v4l2_input)
+14:53:46.084:     - source: 'Color Source' (color_source_v3)
+14:53:46.084:     - source: 'Text (FreeType 2) 2' (text_ft2_source_v2)
+14:53:46.084:         - filter: 'Scroll' (scroll_filter)
+14:53:46.084:     - source: 'Pochette' (image_source)
+14:53:46.084:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+14:53:46.084:     - source: 'SeikenTitre' (image_source)
+14:53:46.084: ------------------------------------------------
+14:53:46.148: v4l2-input: /dev/video0: select timed out
+14:53:46.148: v4l2-input: /dev/video0: failed to log status
+14:53:46.231: v4l2-input: /dev/video0: select timed out
+14:53:46.231: v4l2-input: /dev/video0: failed to log status
+14:53:46.315: v4l2-input: /dev/video0: select timed out
+14:53:46.315: v4l2-input: /dev/video0: failed to log status
+14:53:46.398: v4l2-input: /dev/video0: select timed out
+14:53:46.398: v4l2-input: /dev/video0: failed to log status
+14:53:46.482: v4l2-input: /dev/video0: select timed out
+14:53:46.482: v4l2-input: /dev/video0: failed to log status
+14:53:46.519: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+14:53:46.519: 
+14:53:46.565: v4l2-input: /dev/video0: select timed out
+14:53:46.565: v4l2-input: /dev/video0: failed to log status
+14:53:46.649: v4l2-input: /dev/video0: select timed out
+14:53:46.649: v4l2-input: /dev/video0: failed to log status
+14:53:46.732: v4l2-input: /dev/video0: select timed out
+14:53:46.732: v4l2-input: /dev/video0: failed to log status
+14:53:46.816: v4l2-input: /dev/video0: select timed out
+14:53:46.816: v4l2-input: /dev/video0: failed to log status
+14:53:46.899: v4l2-input: /dev/video0: select timed out
+14:53:46.899: v4l2-input: /dev/video0: failed to log status
+14:53:46.983: v4l2-input: /dev/video0: select timed out
+14:53:46.983: v4l2-input: /dev/video0: failed to log status
+14:53:47.066: v4l2-input: /dev/video0: select timed out
+14:53:47.066: v4l2-input: /dev/video0: failed to log status
+14:53:47.150: v4l2-input: /dev/video0: select timed out
+14:53:47.150: v4l2-input: /dev/video0: failed to log status
+14:53:47.233: v4l2-input: /dev/video0: select timed out
+14:53:47.233: v4l2-input: /dev/video0: failed to log status
+14:53:47.317: v4l2-input: /dev/video0: select timed out
+14:53:47.317: v4l2-input: /dev/video0: failed to log status
+14:53:47.400: v4l2-input: /dev/video0: select timed out
+14:53:47.400: v4l2-input: /dev/video0: failed to log status
+14:53:47.484: v4l2-input: /dev/video0: select timed out
+14:53:47.484: v4l2-input: /dev/video0: failed to log status
+14:53:47.567: v4l2-input: /dev/video0: select timed out
+14:53:47.567: v4l2-input: /dev/video0: failed to log status
+14:53:47.651: v4l2-input: /dev/video0: select timed out
+14:53:47.651: v4l2-input: /dev/video0: failed to log status
+14:53:47.734: v4l2-input: /dev/video0: select timed out
+14:53:47.734: v4l2-input: /dev/video0: failed to log status
+14:53:47.756: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Audio Input Capture (PulseAudio))
+14:53:47.756: 
+14:53:47.818: v4l2-input: /dev/video0: select timed out
+14:53:47.818: v4l2-input: /dev/video0: failed to log status
+14:53:47.901: v4l2-input: /dev/video0: select timed out
+14:53:47.901: v4l2-input: /dev/video0: failed to log status
+14:53:47.985: v4l2-input: /dev/video0: select timed out
+14:53:47.985: v4l2-input: /dev/video0: failed to log status
+14:53:48.068: v4l2-input: /dev/video0: select timed out
+14:53:48.068: v4l2-input: /dev/video0: failed to log status
+14:53:48.152: v4l2-input: /dev/video0: select timed out
+14:53:48.152: v4l2-input: /dev/video0: failed to log status
+14:53:48.235: v4l2-input: /dev/video0: select timed out
+14:53:48.235: v4l2-input: /dev/video0: failed to log status
+14:53:48.319: v4l2-input: /dev/video0: select timed out
+14:53:48.319: v4l2-input: /dev/video0: failed to log status
+14:53:48.402: v4l2-input: /dev/video0: select timed out
+14:53:48.402: v4l2-input: /dev/video0: failed to log status
+14:53:48.486: v4l2-input: /dev/video0: select timed out
+14:53:48.486: v4l2-input: /dev/video0: failed to log status
+14:53:48.569: v4l2-input: /dev/video0: select timed out
+14:53:48.569: v4l2-input: /dev/video0: failed to log status
+14:53:48.653: v4l2-input: /dev/video0: select timed out
+14:53:48.653: v4l2-input: /dev/video0: failed to log status
+14:53:48.736: v4l2-input: /dev/video0: select timed out
+14:53:48.736: v4l2-input: /dev/video0: failed to log status
+14:53:48.820: v4l2-input: /dev/video0: select timed out
+14:53:48.820: v4l2-input: /dev/video0: failed to log status
+14:53:48.903: v4l2-input: /dev/video0: select timed out
+14:53:48.903: v4l2-input: /dev/video0: failed to log status
+14:53:48.987: v4l2-input: /dev/video0: select timed out
+14:53:48.987: v4l2-input: /dev/video0: failed to log status
+14:53:49.070: v4l2-input: /dev/video0: select timed out
+14:53:49.070: v4l2-input: /dev/video0: failed to log status
+14:53:49.154: v4l2-input: /dev/video0: select timed out
+14:53:49.154: v4l2-input: /dev/video0: failed to log status
+14:53:49.237: v4l2-input: /dev/video0: select timed out
+14:53:49.237: v4l2-input: /dev/video0: failed to log status
+14:53:49.321: v4l2-input: /dev/video0: select timed out
+14:53:49.321: v4l2-input: /dev/video0: failed to log status
+14:53:49.404: v4l2-input: /dev/video0: select timed out
+14:53:49.404: v4l2-input: /dev/video0: failed to log status
+14:53:49.488: v4l2-input: /dev/video0: select timed out
+14:53:49.488: v4l2-input: /dev/video0: failed to log status
+14:53:49.571: v4l2-input: /dev/video0: select timed out
+14:53:49.571: v4l2-input: /dev/video0: failed to log status
+14:53:49.655: v4l2-input: /dev/video0: select timed out
+14:53:49.655: v4l2-input: /dev/video0: failed to log status
+14:53:49.738: v4l2-input: /dev/video0: select timed out
+14:53:49.738: v4l2-input: /dev/video0: failed to log status
+14:53:49.822: v4l2-input: /dev/video0: select timed out
+14:53:49.822: v4l2-input: /dev/video0: failed to log status
+14:53:49.905: v4l2-input: /dev/video0: select timed out
+14:53:49.905: v4l2-input: /dev/video0: failed to log status
+14:53:49.989: v4l2-input: /dev/video0: select timed out
+14:53:49.989: v4l2-input: /dev/video0: failed to log status
+14:53:50.072: v4l2-input: /dev/video0: select timed out
+14:53:50.072: v4l2-input: /dev/video0: failed to log status
+14:53:50.156: v4l2-input: /dev/video0: select timed out
+14:53:50.156: v4l2-input: /dev/video0: failed to log status
+14:53:50.239: v4l2-input: /dev/video0: select timed out
+14:53:50.239: v4l2-input: /dev/video0: failed to log status
+14:53:50.323: v4l2-input: /dev/video0: select timed out
+14:53:50.323: v4l2-input: /dev/video0: failed to log status
+14:53:50.406: v4l2-input: /dev/video0: select timed out
+14:53:50.406: v4l2-input: /dev/video0: failed to log status
+14:53:50.490: v4l2-input: /dev/video0: select timed out
+14:53:50.490: v4l2-input: /dev/video0: failed to log status
+14:53:50.573: v4l2-input: /dev/video0: select timed out
+14:53:50.573: v4l2-input: /dev/video0: failed to log status
+14:53:50.657: v4l2-input: /dev/video0: select timed out
+14:53:50.657: v4l2-input: /dev/video0: failed to log status
+14:53:50.740: v4l2-input: /dev/video0: select timed out
+14:53:50.741: v4l2-input: /dev/video0: failed to log status
+14:53:50.824: v4l2-input: /dev/video0: select timed out
+14:53:50.824: v4l2-input: /dev/video0: failed to log status
+14:53:50.907: v4l2-input: /dev/video0: select timed out
+14:53:50.908: v4l2-input: /dev/video0: failed to log status
+14:53:50.991: v4l2-input: /dev/video0: select timed out
+14:53:50.991: v4l2-input: /dev/video0: failed to log status
+14:53:51.074: v4l2-input: /dev/video0: select timed out
+14:53:51.075: v4l2-input: /dev/video0: failed to log status
+14:53:51.158: v4l2-input: /dev/video0: select timed out
+14:53:51.158: v4l2-input: /dev/video0: failed to log status
+14:53:51.242: v4l2-input: /dev/video0: select timed out
+14:53:51.242: v4l2-input: /dev/video0: failed to log status
+14:53:51.325: v4l2-input: /dev/video0: select timed out
+14:53:51.325: v4l2-input: /dev/video0: failed to log status
+14:53:51.409: v4l2-input: /dev/video0: select timed out
+14:53:51.409: v4l2-input: /dev/video0: failed to log status
+14:53:51.492: v4l2-input: /dev/video0: select timed out
+14:53:51.492: v4l2-input: /dev/video0: failed to log status
+14:53:51.576: v4l2-input: /dev/video0: select timed out
+14:53:51.576: v4l2-input: /dev/video0: failed to log status
+14:53:51.659: v4l2-input: /dev/video0: select timed out
+14:53:51.659: v4l2-input: /dev/video0: failed to log status
+14:53:51.743: v4l2-input: /dev/video0: select timed out
+14:53:51.743: v4l2-input: /dev/video0: failed to log status
+14:53:51.826: v4l2-input: /dev/video0: select timed out
+14:53:51.826: v4l2-input: /dev/video0: failed to log status
+14:53:51.910: v4l2-input: /dev/video0: select timed out
+14:53:51.910: v4l2-input: /dev/video0: failed to log status
+14:53:51.993: v4l2-input: /dev/video0: select timed out
+14:53:51.993: v4l2-input: /dev/video0: failed to log status
+14:53:52.077: v4l2-input: /dev/video0: select timed out
+14:53:52.077: v4l2-input: /dev/video0: failed to log status
+14:53:52.160: v4l2-input: /dev/video0: select timed out
+14:53:52.160: v4l2-input: /dev/video0: failed to log status
+14:53:52.244: v4l2-input: /dev/video0: select timed out
+14:53:52.244: v4l2-input: /dev/video0: failed to log status
+14:53:52.327: v4l2-input: /dev/video0: select timed out
+14:53:52.327: v4l2-input: /dev/video0: failed to log status
+14:53:52.411: v4l2-input: /dev/video0: select timed out
+14:53:52.411: v4l2-input: /dev/video0: failed to log status
+14:53:52.494: v4l2-input: /dev/video0: select timed out
+14:53:52.494: v4l2-input: /dev/video0: failed to log status
+14:53:52.578: v4l2-input: /dev/video0: select timed out
+14:53:52.578: v4l2-input: /dev/video0: failed to log status
+14:53:52.661: v4l2-input: /dev/video0: select timed out
+14:53:52.661: v4l2-input: /dev/video0: failed to log status
+14:53:52.745: v4l2-input: /dev/video0: select timed out
+14:53:52.745: v4l2-input: /dev/video0: failed to log status
+14:53:52.828: v4l2-input: /dev/video0: select timed out
+14:53:52.828: v4l2-input: /dev/video0: failed to log status
+14:53:52.912: v4l2-input: /dev/video0: select timed out
+14:53:52.912: v4l2-input: /dev/video0: failed to log status
+14:53:52.995: v4l2-input: /dev/video0: select timed out
+14:53:52.995: v4l2-input: /dev/video0: failed to log status
+14:53:53.079: v4l2-input: /dev/video0: select timed out
+14:53:53.079: v4l2-input: /dev/video0: failed to log status
+14:53:53.162: v4l2-input: /dev/video0: select timed out
+14:53:53.162: v4l2-input: /dev/video0: failed to log status
+14:53:53.246: v4l2-input: /dev/video0: select timed out
+14:53:53.246: v4l2-input: /dev/video0: failed to log status
+14:53:53.329: v4l2-input: /dev/video0: select timed out
+14:53:53.329: v4l2-input: /dev/video0: failed to log status
+14:53:53.413: v4l2-input: /dev/video0: select timed out
+14:53:53.413: v4l2-input: /dev/video0: failed to log status
+14:53:53.496: v4l2-input: /dev/video0: select timed out
+14:53:53.496: v4l2-input: /dev/video0: failed to log status
+14:53:53.580: v4l2-input: /dev/video0: select timed out
+14:53:53.580: v4l2-input: /dev/video0: failed to log status
+14:53:53.663: v4l2-input: /dev/video0: select timed out
+14:53:53.663: v4l2-input: /dev/video0: failed to log status
+14:53:53.747: v4l2-input: /dev/video0: select timed out
+14:53:53.747: v4l2-input: /dev/video0: failed to log status
+14:53:53.830: v4l2-input: /dev/video0: select timed out
+14:53:53.830: v4l2-input: /dev/video0: failed to log status
+14:53:53.914: v4l2-input: /dev/video0: select timed out
+14:53:53.914: v4l2-input: /dev/video0: failed to log status
+14:53:53.997: v4l2-input: /dev/video0: select timed out
+14:53:53.997: v4l2-input: /dev/video0: failed to log status
+14:53:54.081: v4l2-input: /dev/video0: select timed out
+14:53:54.081: v4l2-input: /dev/video0: failed to log status
+14:53:54.164: v4l2-input: /dev/video0: select timed out
+14:53:54.164: v4l2-input: /dev/video0: failed to log status
+14:53:54.248: v4l2-input: /dev/video0: select timed out
+14:53:54.248: v4l2-input: /dev/video0: failed to log status
+14:53:54.331: v4l2-input: /dev/video0: select timed out
+14:53:54.331: v4l2-input: /dev/video0: failed to log status
+14:53:54.415: v4l2-input: /dev/video0: select timed out
+14:53:54.415: v4l2-input: /dev/video0: failed to log status
+14:53:54.498: v4l2-input: /dev/video0: select timed out
+14:53:54.498: v4l2-input: /dev/video0: failed to log status
+14:53:54.582: v4l2-input: /dev/video0: select timed out
+14:53:54.582: v4l2-input: /dev/video0: failed to log status
+14:53:54.665: v4l2-input: /dev/video0: select timed out
+14:53:54.665: v4l2-input: /dev/video0: failed to log status
+14:53:54.749: v4l2-input: /dev/video0: select timed out
+14:53:54.749: v4l2-input: /dev/video0: failed to log status
+14:53:54.832: v4l2-input: /dev/video0: select timed out
+14:53:54.832: v4l2-input: /dev/video0: failed to log status
+14:53:54.916: v4l2-input: /dev/video0: select timed out
+14:53:54.916: v4l2-input: /dev/video0: failed to log status
+14:53:54.999: v4l2-input: /dev/video0: select timed out
+14:53:54.999: v4l2-input: /dev/video0: failed to log status
+14:53:55.083: v4l2-input: /dev/video0: select timed out
+14:53:55.083: v4l2-input: /dev/video0: failed to log status
+14:53:55.166: v4l2-input: /dev/video0: select timed out
+14:53:55.166: v4l2-input: /dev/video0: failed to log status
+14:53:55.250: v4l2-input: /dev/video0: select timed out
+14:53:55.250: v4l2-input: /dev/video0: failed to log status
+14:53:55.333: v4l2-input: /dev/video0: select timed out
+14:53:55.333: v4l2-input: /dev/video0: failed to log status
+14:53:55.417: v4l2-input: /dev/video0: select timed out
+14:53:55.417: v4l2-input: /dev/video0: failed to log status
+14:53:55.500: v4l2-input: /dev/video0: select timed out
+14:53:55.500: v4l2-input: /dev/video0: failed to log status
+14:53:55.584: v4l2-input: /dev/video0: select timed out
+14:53:55.584: v4l2-input: /dev/video0: failed to log status
+14:53:55.667: v4l2-input: /dev/video0: select timed out
+14:53:55.667: v4l2-input: /dev/video0: failed to log status
+14:53:55.751: v4l2-input: /dev/video0: select timed out
+14:53:55.751: v4l2-input: /dev/video0: failed to log status
+14:53:55.834: v4l2-input: /dev/video0: select timed out
+14:53:55.834: v4l2-input: /dev/video0: failed to log status
+14:53:55.918: v4l2-input: /dev/video0: select timed out
+14:53:55.918: v4l2-input: /dev/video0: failed to log status
+14:53:56.001: v4l2-input: /dev/video0: select timed out
+14:53:56.002: v4l2-input: /dev/video0: failed to log status
+14:53:56.085: v4l2-input: /dev/video0: select timed out
+14:53:56.085: v4l2-input: /dev/video0: failed to log status
+14:53:56.169: v4l2-input: /dev/video0: select timed out
+14:53:56.169: v4l2-input: /dev/video0: failed to log status
+14:53:56.252: v4l2-input: /dev/video0: select timed out
+14:53:56.252: v4l2-input: /dev/video0: failed to log status
+14:53:56.336: v4l2-input: /dev/video0: select timed out
+14:53:56.336: v4l2-input: /dev/video0: failed to log status
+14:53:56.419: v4l2-input: /dev/video0: select timed out
+14:53:56.419: v4l2-input: /dev/video0: failed to log status
+14:53:56.503: v4l2-input: /dev/video0: select timed out
+14:53:56.503: v4l2-input: /dev/video0: failed to log status
+14:53:56.586: v4l2-input: /dev/video0: select timed out
+14:53:56.586: v4l2-input: /dev/video0: failed to log status
+14:53:56.670: v4l2-input: /dev/video0: select timed out
+14:53:56.670: v4l2-input: /dev/video0: failed to log status
+14:53:56.753: v4l2-input: /dev/video0: select timed out
+14:53:56.753: v4l2-input: /dev/video0: failed to log status
+14:53:56.837: v4l2-input: /dev/video0: select timed out
+14:53:56.837: v4l2-input: /dev/video0: failed to log status
+14:53:56.920: v4l2-input: /dev/video0: select timed out
+14:53:56.920: v4l2-input: /dev/video0: failed to log status
+14:53:57.004: v4l2-input: /dev/video0: select timed out
+14:53:57.004: v4l2-input: /dev/video0: failed to log status
+14:53:57.087: v4l2-input: /dev/video0: select timed out
+14:53:57.087: v4l2-input: /dev/video0: failed to log status
+14:53:57.171: v4l2-input: /dev/video0: select timed out
+14:53:57.171: v4l2-input: /dev/video0: failed to log status
+14:53:57.254: v4l2-input: /dev/video0: select timed out
+14:53:57.254: v4l2-input: /dev/video0: failed to log status
+14:53:57.338: v4l2-input: /dev/video0: select timed out
+14:53:57.338: v4l2-input: /dev/video0: failed to log status
+14:53:57.421: v4l2-input: /dev/video0: select timed out
+14:53:57.421: v4l2-input: /dev/video0: failed to log status
+14:53:57.505: v4l2-input: /dev/video0: select timed out
+14:53:57.505: v4l2-input: /dev/video0: failed to log status
+14:53:57.588: v4l2-input: /dev/video0: select timed out
+14:53:57.588: v4l2-input: /dev/video0: failed to log status
+14:53:57.672: v4l2-input: /dev/video0: select timed out
+14:53:57.672: v4l2-input: /dev/video0: failed to log status
+14:53:57.755: v4l2-input: /dev/video0: select timed out
+14:53:57.755: v4l2-input: /dev/video0: failed to log status
+14:53:57.839: v4l2-input: /dev/video0: select timed out
+14:53:57.839: v4l2-input: /dev/video0: failed to log status
+14:53:57.922: v4l2-input: /dev/video0: select timed out
+14:53:57.922: v4l2-input: /dev/video0: failed to log status
+14:53:58.006: v4l2-input: /dev/video0: select timed out
+14:53:58.006: v4l2-input: /dev/video0: failed to log status
+14:53:58.089: v4l2-input: /dev/video0: select timed out
+14:53:58.089: v4l2-input: /dev/video0: failed to log status
+14:53:58.173: v4l2-input: /dev/video0: select timed out
+14:53:58.173: v4l2-input: /dev/video0: failed to log status
+14:53:58.256: v4l2-input: /dev/video0: select timed out
+14:53:58.256: v4l2-input: /dev/video0: failed to log status
+14:53:58.340: v4l2-input: /dev/video0: select timed out
+14:53:58.340: v4l2-input: /dev/video0: failed to log status
+14:53:58.343: pulse-input: Stopped recording from 'alsa_output.pci-0000_2d_00.4.analog-stereo.monitor'
+14:53:58.343: pulse-input: Got 494 packets with 592800 frames
+14:53:58.343: pulse-input: Stopped recording from 'alsa_input.usb-BEACN_BEACN_Mic_0011220800828B-00.analog-surround-40'
+14:53:58.343: pulse-input: Got 494 packets with 592800 frames
+14:53:58.343: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_2d_00.4.analog-stereo'
+14:53:58.343: pulse-am: Got 470 packets with 564000 frames
+14:53:58.423: v4l2-input: /dev/video0: select timed out
+14:53:58.423: v4l2-input: /dev/video0: failed to log status
+14:53:58.423: v4l2-input: /dev/video0: Stopped capture after 0 frames
+14:53:58.426: pulse-input: Stopped recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:53:58.426: pulse-input: Got 485 packets with 582000 frames
+14:53:58.426: pulse-input: Stopped recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:53:58.426: pulse-input: Got 482 packets with 578400 frames
+14:53:58.444: All scene data cleared
+14:53:58.444: ------------------------------------------------
+14:53:58.447: Switched to scene 'Scene'
+14:53:58.447: ------------------------------------------------
+14:53:58.447: Loaded scenes:
+14:53:58.447: - scene 'Scene':
+14:53:58.447: ------------------------------------------------
+14:53:58.448: Switched to scene collection 'DansLeRétro-PS2' (DansLeRétroPS2.json)
+14:53:58.448: ------------------------------------------------
+14:54:01.774: All scene data cleared
+14:54:01.774: ------------------------------------------------
+14:54:01.776: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+14:54:01.776: 	title: unknown
+14:54:01.776: 	class: unknown
+14:54:01.776: 
+14:54:01.777: Switched to scene 'Scene'
+14:54:01.777: ------------------------------------------------
+14:54:01.777: Loaded scenes:
+14:54:01.777: - scene 'Scene':
+14:54:01.777:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+14:54:01.777: ------------------------------------------------
+14:54:01.779: Switched to scene collection 'Informatique' (Informatique.json)
+14:54:01.779: ------------------------------------------------
+14:54:05.017: All scene data cleared
+14:54:05.017: ------------------------------------------------
+14:54:05.022: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:05.023: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+14:54:05.023: pulse-input: Started recording from 'alsa_output.pci-0000_2d_00.4.analog-stereo.monitor' (default)
+14:54:05.034: pulse-am: Prevented feedback-loop in 'default'
+14:54:05.034: [Loaded global audio device]: 'Desktop Audio'
+14:54:05.034:     - monitoring: monitor and output
+14:54:05.034: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:05.035: pulse-input: Audio format: float32le, 48000 Hz, 4 channels
+14:54:05.035: pulse-input: Started recording from 'alsa_input.usb-BEACN_BEACN_Mic_0011220800828B-00.analog-surround-40' (default)
+14:54:05.036: Device for 'Audio Output Capture' source is also used for audio monitoring:
+14:54:05.036: Deduplication logic is being applied to all monitored sources.
+14:54:05.036: 
+14:54:05.051: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:05.053: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+14:54:05.053: pulse-am: Started Monitoring in 'alsa_output.pci-0000_2d_00.4.analog-stereo'
+14:54:05.053: [Loaded global audio device]: 'Mic/Aux'
+14:54:05.053:     - monitoring: monitor and output
+14:54:05.053: v4l2-input: Start capture from /dev/video0
+14:54:05.054: v4l2-input: Input: 0
+14:54:10.457: v4l2-input: Unable to set format
+14:54:10.457: v4l2-input: Initialization failed, errno: Input/output error
+14:54:10.458: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:10.458: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:54:10.458: pulse-input: Started recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:54:10.462: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:10.462: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:54:10.462: pulse-input: Started recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:54:10.471: Switched to scene 'Scene Super Game Boy - Seiken Densetsu'
+14:54:10.471: ------------------------------------------------
+14:54:10.471: Loaded scenes:
+14:54:10.471: - scene 'Scene Super Game Boy - Générique':
+14:54:10.471:     - source: 'Capture de la vidéo de la console' (v4l2_input)
+14:54:10.471:     - source: 'Color Source' (color_source_v3)
+14:54:10.471:     - source: 'Capture du son de la console' (pulse_input_capture)
+14:54:10.471: - scene 'Scene Super Game Boy - Seiken Densetsu':
+14:54:10.471:     - source: 'Capture de la vidéo de la console' (v4l2_input)
+14:54:10.471:     - source: 'Color Source' (color_source_v3)
+14:54:10.471:     - source: 'Text (FreeType 2) 2' (text_ft2_source_v2)
+14:54:10.471:         - filter: 'Scroll' (scroll_filter)
+14:54:10.471:     - source: 'Pochette' (image_source)
+14:54:10.471:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+14:54:10.471:     - source: 'SeikenTitre' (image_source)
+14:54:10.471: ------------------------------------------------
+14:54:10.479: Switched to scene collection 'DansLeRetro' (DansLeRetro.json)
+14:54:10.479: ------------------------------------------------
+14:54:29.327: No scene file found, creating default scene
+14:54:29.329: pulse-input: Stopped recording from 'alsa_output.pci-0000_2d_00.4.analog-stereo.monitor'
+14:54:29.329: pulse-input: Got 971 packets with 1165200 frames
+14:54:29.329: pulse-input: Stopped recording from 'alsa_input.usb-BEACN_BEACN_Mic_0011220800828B-00.analog-surround-40'
+14:54:29.329: pulse-input: Got 971 packets with 1165200 frames
+14:54:29.329: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_2d_00.4.analog-stereo'
+14:54:29.329: pulse-am: Got 950 packets with 1140000 frames
+14:54:29.330: pulse-input: Stopped recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:54:29.330: pulse-input: Got 0 packets with 0 frames
+14:54:29.330: pulse-input: Stopped recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:54:29.330: pulse-input: Got 0 packets with 0 frames
+14:54:29.359: All scene data cleared
+14:54:29.359: ------------------------------------------------
+14:54:29.360: Switched to scene 'Scene'
+14:54:29.362: Created scene collection 'DansLeRetor-SuperNintendo' (clean, DansLeRetorSuperNintendo.json)
+14:54:29.362: ------------------------------------------------
+14:54:32.941: All scene data cleared
+14:54:32.941: ------------------------------------------------
+14:54:32.947: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:32.947: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+14:54:32.947: pulse-input: Started recording from 'alsa_output.pci-0000_2d_00.4.analog-stereo.monitor' (default)
+14:54:32.959: pulse-am: Prevented feedback-loop in 'default'
+14:54:32.959: [Loaded global audio device]: 'Desktop Audio'
+14:54:32.959:     - monitoring: monitor and output
+14:54:32.960: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:32.961: pulse-input: Audio format: float32le, 48000 Hz, 4 channels
+14:54:32.961: pulse-input: Started recording from 'alsa_input.usb-BEACN_BEACN_Mic_0011220800828B-00.analog-surround-40' (default)
+14:54:32.962: Device for 'Audio Output Capture' source is also used for audio monitoring:
+14:54:32.962: Deduplication logic is being applied to all monitored sources.
+14:54:32.962: 
+14:54:32.978: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:32.978: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+14:54:32.978: pulse-am: Started Monitoring in 'alsa_output.pci-0000_2d_00.4.analog-stereo'
+14:54:32.978: [Loaded global audio device]: 'Mic/Aux'
+14:54:32.978:     - monitoring: monitor and output
+14:54:32.979: v4l2-input: Start capture from /dev/video0
+14:54:32.979: v4l2-input: Input: 0
+14:54:38.105: v4l2-input: Unable to set format
+14:54:38.105: v4l2-input: Initialization failed, errno: Input/output error
+14:54:38.107: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:38.107: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:54:38.107: pulse-input: Started recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:54:38.127: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:38.127: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:54:38.127: pulse-input: Started recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:54:38.137: Switched to scene 'Scene Super Game Boy - Seiken Densetsu'
+14:54:38.137: ------------------------------------------------
+14:54:38.137: Loaded scenes:
+14:54:38.137: - scene 'Scene Super Game Boy - Générique':
+14:54:38.137:     - source: 'Capture de la vidéo de la console' (v4l2_input)
+14:54:38.137:     - source: 'Color Source' (color_source_v3)
+14:54:38.137:     - source: 'Capture du son de la console' (pulse_input_capture)
+14:54:38.137: - scene 'Scene Super Game Boy - Seiken Densetsu':
+14:54:38.137:     - source: 'Capture de la vidéo de la console' (v4l2_input)
+14:54:38.137:     - source: 'Color Source' (color_source_v3)
+14:54:38.137:     - source: 'Text (FreeType 2) 2' (text_ft2_source_v2)
+14:54:38.137:         - filter: 'Scroll' (scroll_filter)
+14:54:38.137:     - source: 'Pochette' (image_source)
+14:54:38.137:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+14:54:38.137:     - source: 'SeikenTitre' (image_source)
+14:54:38.137: ------------------------------------------------
+14:54:38.143: Switched to scene collection 'DansLeRetro' (DansLeRetro.json)
+14:54:38.143: ------------------------------------------------
+14:54:48.715: pulse-input: Stopped recording from 'alsa_output.pci-0000_2d_00.4.analog-stereo.monitor'
+14:54:48.715: pulse-input: Got 630 packets with 756000 frames
+14:54:48.715: pulse-input: Stopped recording from 'alsa_input.usb-BEACN_BEACN_Mic_0011220800828B-00.analog-surround-40'
+14:54:48.715: pulse-input: Got 628 packets with 753600 frames
+14:54:48.715: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_2d_00.4.analog-stereo'
+14:54:48.715: pulse-am: Got 607 packets with 728400 frames
+14:54:48.716: pulse-input: Stopped recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:54:48.716: pulse-input: Got 0 packets with 0 frames
+14:54:48.716: pulse-input: Stopped recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:54:48.716: pulse-input: Got 0 packets with 0 frames
+14:54:48.751: All scene data cleared
+14:54:48.751: ------------------------------------------------
+14:54:53.483: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:53.483: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+14:54:53.483: pulse-input: Started recording from 'alsa_output.pci-0000_2d_00.4.analog-stereo.monitor' (default)
+14:54:53.495: pulse-am: Prevented feedback-loop in 'default'
+14:54:53.495: [Loaded global audio device]: 'Desktop Audio'
+14:54:53.495:     - monitoring: monitor and output
+14:54:53.496: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:53.496: pulse-input: Audio format: float32le, 48000 Hz, 4 channels
+14:54:53.496: pulse-input: Started recording from 'alsa_input.usb-BEACN_BEACN_Mic_0011220800828B-00.analog-surround-40' (default)
+14:54:53.506: Device for 'Audio Output Capture' source is also used for audio monitoring:
+14:54:53.506: Deduplication logic is being applied to all monitored sources.
+14:54:53.506: 
+14:54:53.512: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:53.512: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+14:54:53.512: pulse-am: Started Monitoring in 'alsa_output.pci-0000_2d_00.4.analog-stereo'
+14:54:53.512: [Loaded global audio device]: 'Mic/Aux'
+14:54:53.512:     - monitoring: monitor and output
+14:54:53.512: v4l2-input: Start capture from /dev/video0
+14:54:53.513: v4l2-input: Input: 0
+14:54:58.585: v4l2-input: Unable to set format
+14:54:58.585: v4l2-input: Initialization failed, errno: Input/output error
+14:54:58.586: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:58.586: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:54:58.586: pulse-input: Started recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:54:58.590: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:54:58.590: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:54:58.590: pulse-input: Started recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+14:54:58.596: Switched to scene 'Scene Super Game Boy - Seiken Densetsu'
+14:54:58.596: ------------------------------------------------
+14:54:58.596: Loaded scenes:
+14:54:58.596: - scene 'Scene Super Game Boy - Générique':
+14:54:58.596:     - source: 'Capture de la vidéo de la console' (v4l2_input)
+14:54:58.596:     - source: 'Color Source' (color_source_v3)
+14:54:58.596:     - source: 'Capture du son de la console' (pulse_input_capture)
+14:54:58.596: - scene 'Scene Super Game Boy - Seiken Densetsu':
+14:54:58.596:     - source: 'Capture de la vidéo de la console' (v4l2_input)
+14:54:58.596:     - source: 'Color Source' (color_source_v3)
+14:54:58.596:     - source: 'Text (FreeType 2) 2' (text_ft2_source_v2)
+14:54:58.596:         - filter: 'Scroll' (scroll_filter)
+14:54:58.596:     - source: 'Pochette' (image_source)
+14:54:58.596:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+14:54:58.596:     - source: 'SeikenTitre' (image_source)
+14:54:58.596: ------------------------------------------------
+14:54:58.604: Removed scene collection 'DansLeRetro' (DansLeRetro.json)
+14:54:58.604: ------------------------------------------------
+14:54:58.604: Renamed scene collection 'DansLeRetro' to 'DansLeRetro-SuperGameBoy' (DansLeRetroSuperGameBoy.json)
+14:54:58.604: ------------------------------------------------
+15:17:47.197: ==== Shutting down ==================================================
+15:17:47.203: pulse-input: Stopped recording from 'alsa_output.pci-0000_2d_00.4.analog-stereo.monitor'
+15:17:47.203: pulse-input: Got 54948 packets with 65937600 frames
+15:17:47.203: pulse-input: Stopped recording from 'alsa_input.usb-BEACN_BEACN_Mic_0011220800828B-00.analog-surround-40'
+15:17:47.203: pulse-input: Got 54943 packets with 65931600 frames
+15:17:47.203: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_2d_00.4.analog-stereo'
+15:17:47.203: pulse-am: Got 54922 packets with 65906400 frames
+15:17:47.204: pulse-input: Stopped recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+15:17:47.204: pulse-input: Got 0 packets with 0 frames
+15:17:47.204: pulse-input: Stopped recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+15:17:47.204: pulse-input: Got 0 packets with 0 frames
+15:17:47.226: All scene data cleared
+15:17:47.226: ------------------------------------------------
+15:17:47.352: [obs-websocket] [obs_module_unload] Shutting down...
+15:17:47.352: Tried to call obs_frontend_remove_event_callback with no callbacks!
+15:17:47.352: [obs-websocket] [obs_module_unload] Finished shutting down.
+15:17:47.356: [Scripting] Total detached callbacks: 0
+15:17:47.356: Freeing OBS context data
+15:17:47.450: == Profiler Results =============================
+15:17:47.450: run_program_init: 1257.13 ms
+15:17:47.450:  ┣OBSApp::AppInit: 15.779 ms
+15:17:47.450:  ┃ ┗OBSApp::InitLocale: 2.04 ms
+15:17:47.450:  ┗OBSApp::OBSInit: 1211.99 ms
+15:17:47.450:    ┣obs_startup: 1.596 ms
+15:17:47.450:    ┗OBSBasic::OBSInit: 1184.49 ms
+15:17:47.450:      ┣OBSBasic::InitBasicConfig: 0.569 ms
+15:17:47.450:      ┣OBSBasic::ResetAudio: 0.245 ms
+15:17:47.450:      ┣OBSBasic::ResetVideo: 220.425 ms
+15:17:47.450:      ┃ ┗obs_init_graphics: 219.975 ms
+15:17:47.450:      ┃   ┗shader compilation: 21.364 ms
+15:17:47.450:      ┣OBSBasic::InitOBSCallbacks: 0.002 ms
+15:17:47.450:      ┣OBSBasic::InitHotkeys: 0.014 ms
+15:17:47.450:      ┣obs_load_all_modules2: 673.547 ms
+15:17:47.450:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+15:17:47.450:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+15:17:47.450:      ┃ ┣obs_init_module(decklink.so): 0.079 ms
+15:17:47.450:      ┃ ┣obs_init_module(frontend-tools.so): 66.732 ms
+15:17:47.450:      ┃ ┣obs_init_module(image-source.so): 0.004 ms
+15:17:47.450:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+15:17:47.450:      ┃ ┣obs_init_module(linux-capture.so): 0.346 ms
+15:17:47.450:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+15:17:47.450:      ┃ ┣obs_init_module(linux-pipewire.so): 3.437 ms
+15:17:47.450:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+15:17:47.450:      ┃ ┣obs_init_module(linux-v4l2.so): 4.016 ms
+15:17:47.450:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.405 ms
+15:17:47.450:      ┃ ┣obs_init_module(obs-filters.so): 0.012 ms
+15:17:47.450:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+15:17:47.450:      ┃ ┣obs_init_module(obs-nvenc.so): 538.573 ms
+15:17:47.450:      ┃ ┃ ┗nvenc_check: 538.563 ms
+15:17:47.450:      ┃ ┣obs_init_module(obs-outputs.so): 0.003 ms
+15:17:47.450:      ┃ ┣obs_init_module(obs-qsv11.so): 0.917 ms
+15:17:47.450:      ┃ ┣obs_init_module(obs-transitions.so): 0.004 ms
+15:17:47.450:      ┃ ┣obs_init_module(obs-vst.so): 0.001 ms
+15:17:47.450:      ┃ ┣obs_init_module(obs-webrtc.so): 0.001 ms
+15:17:47.450:      ┃ ┣obs_init_module(obs-websocket.so): 3.164 ms
+15:17:47.450:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+15:17:47.450:      ┃ ┣obs_init_module(rtmp-services.so): 0.948 ms
+15:17:47.450:      ┃ ┗obs_init_module(text-freetype2.so): 0.014 ms
+15:17:47.450:      ┣OBSBasic::InitService: 1.019 ms
+15:17:47.450:      ┣OBSBasic::ResetOutputs: 0.119 ms
+15:17:47.450:      ┣OBSBasic::CreateHotkeys: 0.978 ms
+15:17:47.450:      ┣OBSBasic::InitPrimitives: 0.141 ms
+15:17:47.450:      ┗OBSBasic::Load: 166.81 ms
+15:17:47.450: obs_hotkey_thread(25 ms): min=0.06 ms, median=0.096 ms, max=61.35 ms, 99th percentile=24.873 ms, 99.5332% below 25 ms
+15:17:47.450: audio_thread(Audio): min=0.003 ms, median=0.053 ms, max=21.779 ms, 99th percentile=10.633 ms
+15:17:47.450: obs_graphics_thread(16.6667 ms): min=0.092 ms, median=0.328 ms, max=146.454 ms, 99th percentile=31.436 ms, 94.6584% below 16.667 ms
+15:17:47.450:  ┣tick_sources: min=0 ms, median=0.008 ms, max=13.147 ms, 99th percentile=0.024 ms
+15:17:47.450:  ┣output_frame: min=0.04 ms, median=0.182 ms, max=22.297 ms, 99th percentile=16.637 ms
+15:17:47.450:  ┃ ┗gs_context(video->graphics): min=0.04 ms, median=0.181 ms, max=22.294 ms, 99th percentile=16.635 ms
+15:17:47.450:  ┃   ┣render_video: min=0.016 ms, median=0.133 ms, max=7.049 ms, 99th percentile=0.283 ms
+15:17:47.450:  ┃   ┃ ┗render_main_texture: min=0.013 ms, median=0.127 ms, max=7.041 ms, 99th percentile=0.272 ms
+15:17:47.450:  ┃   ┗gs_flush: min=0.004 ms, median=0.009 ms, max=22.102 ms, 99th percentile=16.409 ms
+15:17:47.450:  ┗render_displays: min=0.017 ms, median=0.025 ms, max=100.025 ms, 99th percentile=1.119 ms
+15:17:47.451: =================================================
+15:17:47.451: == Profiler Time Between Calls ==================
+15:17:47.451: obs_hotkey_thread(25 ms): min=25.082 ms, median=25.158 ms, max=86.414 ms, 63.9184% within ±2% of 25 ms (0% lower, 36.0816% higher)
+15:17:47.451: obs_graphics_thread(16.6667 ms): min=0.191 ms, median=16.667 ms, max=146.499 ms, 90.6316% within ±2% of 16.667 ms (4.67781% lower, 4.69054% higher)
+15:17:47.451: =================================================
+15:17:47.485: Number of memory leaks: 0

@@ -6,12 +6,12 @@
             "name": "Scene"
         }
     ],
-    "name": "DansLeRétro-PS2",
+    "name": "DansLeRetor-SuperNintendo",
     "sources": [
         {
             "prev_ver": 536870913,
             "name": "Scene",
-            "uuid": "7bd803a3-f7c7-42a0-a446-b5944ac179d7",
+            "uuid": "e02898c6-e7d3-47a1-8042-f8dae0737ca5",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
