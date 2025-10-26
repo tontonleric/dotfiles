@@ -1,0 +1,1217 @@
+11:51:12.029: Using EGL/X11
+11:51:12.029: CPU Name: AMD Ryzen 9 5950X 16-Core Processor
+11:51:12.029: CPU Speed: 3903.559MHz
+11:51:12.030: Physical Cores: 16, Logical Cores: 32
+11:51:12.030: Physical Memory: 32006MB Total, 248MB Free
+11:51:12.030: Kernel Version: Linux 6.17.5-arch1-1
+11:51:12.030: Distribution: "Arch Linux" Unknown
+11:51:12.030: Desktop Environment: bspwm (bspwm)
+11:51:12.030: Session Type: x11
+11:51:12.030: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+11:51:12.030: Current Date/Time: 2025-10-26, 11:51:12 AM
+11:51:12.030: Browser Hardware Acceleration: true
+11:51:12.030: Qt Version: 6.10.0 (runtime), 6.9.2 (compiled)
+11:51:12.030: Portable mode: false
+11:51:12.057: OBS 32.0.1 (linux)
+11:51:12.057: ---------------------------------
+11:51:12.058: ---------------------------------
+11:51:12.058: audio settings reset:
+11:51:12.058: 	samples per sec: 48000
+11:51:12.058: 	speakers:        2
+11:51:12.058: 	max buffering:   960 milliseconds
+11:51:12.058: 	buffering type:  dynamically increasing
+11:51:12.060: ---------------------------------
+11:51:12.060: Initializing OpenGL...
+11:51:12.245: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+11:51:12.245: OpenGL loaded successfully, version 3.3.0 NVIDIA 580.95.05, shading language 3.30 NVIDIA via Cg compiler
+11:51:12.264: ---------------------------------
+11:51:12.264: video settings reset:
+11:51:12.264: 	base resolution:   1920x1080
+11:51:12.264: 	output resolution: 1920x1080
+11:51:12.264: 	downscale filter:  Bicubic
+11:51:12.264: 	fps:               60/1
+11:51:12.264: 	format:            NV12
+11:51:12.264: 	YUV mode:          Rec. 709/Partial
+11:51:12.265: NV12 texture support enabled
+11:51:12.265: P010 texture support not available
+11:51:12.265: Audio monitoring device:
+11:51:12.265: 	name: Default
+11:51:12.265: 	id: default
+11:51:12.349: ---------------------------------
+11:51:12.350: Failed to load 'en-US' text for module: 'decklink-captions.so'
+11:51:12.352: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+11:51:12.353: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+11:51:12.353: Failed to initialize module 'decklink.so'
+11:51:12.433: [pipewire] No capture sources available
+11:51:12.441: v4l2loopback not installed, virtual camera not registered
+11:51:12.461: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+11:51:12.461: FFmpeg VAAPI H264 encoding not supported
+11:51:12.461: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+11:51:12.461: FFmpeg VAAPI AV1 encoding not supported
+11:51:12.461: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+11:51:12.461: FFmpeg VAAPI HEVC encoding not supported
+11:51:12.999: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 13.0, AV1 supported: false
+11:51:13.032: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+11:51:13.032: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.9.2 | Qt version (run-time): 6.10.0
+11:51:13.032: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+11:51:13.036: [obs-websocket] [obs_module_load] Module loaded.
+11:51:13.040: ---------------------------------
+11:51:13.040:   Loaded Modules:
+11:51:13.040:     text-freetype2.so
+11:51:13.040:     rtmp-services.so
+11:51:13.040:     obs-x264.so
+11:51:13.040:     obs-websocket.so
+11:51:13.040:     obs-webrtc.so
+11:51:13.040:     obs-vst.so
+11:51:13.040:     obs-transitions.so
+11:51:13.040:     obs-qsv11.so
+11:51:13.040:     obs-outputs.so
+11:51:13.040:     obs-nvenc.so
+11:51:13.040:     obs-libfdk.so
+11:51:13.040:     obs-filters.so
+11:51:13.040:     obs-ffmpeg.so
+11:51:13.040:     linux-v4l2.so
+11:51:13.040:     linux-pulseaudio.so
+11:51:13.040:     linux-pipewire.so
+11:51:13.040:     linux-jack.so
+11:51:13.040:     linux-capture.so
+11:51:13.040:     linux-alsa.so
+11:51:13.041:     image-source.so
+11:51:13.041:     frontend-tools.so
+11:51:13.041:     decklink-output-ui.so
+11:51:13.041:     decklink-captions.so
+11:51:13.041: ---------------------------------
+11:51:13.041: ---------------------------------
+11:51:13.041: Available Encoders:
+11:51:13.041:   Video Encoders:
+11:51:13.041: 	- ffmpeg_svt_av1 (SVT-AV1)
+11:51:13.041: 	- ffmpeg_aom_av1 (AOM AV1)
+11:51:13.041: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+11:51:13.041: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+11:51:13.041: 	- obs_x264 (x264)
+11:51:13.041:   Audio Encoders:
+11:51:13.041: 	- ffmpeg_aac (FFmpeg AAC)
+11:51:13.041: 	- ffmpeg_opus (FFmpeg Opus)
+11:51:13.041: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+11:51:13.041: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+11:51:13.041: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+11:51:13.041: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+11:51:13.041: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+11:51:13.041: 	- libfdk_aac (libfdk AAC)
+11:51:13.041: ==== Startup complete ===============================================
+11:51:13.082: All scene data cleared
+11:51:13.082: ------------------------------------------------
+11:51:13.083: v4l2-input: Start capture from /dev/video0
+11:51:13.136: v4l2-input: Input: 0
+11:51:13.148: v4l2-input: Resolution: 1920x1080
+11:51:13.148: v4l2-input: Pixelformat: MJPG
+11:51:13.148: v4l2-input: Linesize: 0 Bytes
+11:51:13.148: v4l2-input: Framerate: 60.00 fps
+11:51:13.156: v4l2-input: /dev/video0: select timeout set to 83333 (5x frame periods)
+11:51:13.174: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+11:51:13.174: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+11:51:13.174: pulse-input: Started recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+11:51:13.175: Switched to scene 'Scene'
+11:51:13.176: ------------------------------------------------
+11:51:13.176: Loaded scenes:
+11:51:13.176: - scene 'Scene':
+11:51:13.176:     - source: 'PS2' (v4l2_input)
+11:51:13.176:     - source: 'PS 2' (pulse_input_capture)
+11:51:13.176: ------------------------------------------------
+11:51:13.240: v4l2-input: /dev/video0: select timed out
+11:51:13.240: v4l2-input: /dev/video0: failed to log status
+11:51:13.324: v4l2-input: /dev/video0: select timed out
+11:51:13.324: v4l2-input: /dev/video0: failed to log status
+11:51:13.407: v4l2-input: /dev/video0: select timed out
+11:51:13.407: v4l2-input: /dev/video0: failed to log status
+11:51:13.491: v4l2-input: /dev/video0: select timed out
+11:51:13.491: v4l2-input: /dev/video0: failed to log status
+11:51:13.574: v4l2-input: /dev/video0: select timed out
+11:51:13.574: v4l2-input: /dev/video0: failed to log status
+11:51:13.658: v4l2-input: /dev/video0: select timed out
+11:51:13.658: v4l2-input: /dev/video0: failed to log status
+11:51:13.741: v4l2-input: /dev/video0: select timed out
+11:51:13.741: v4l2-input: /dev/video0: failed to log status
+11:51:13.825: v4l2-input: /dev/video0: select timed out
+11:51:13.825: v4l2-input: /dev/video0: failed to log status
+11:51:13.893: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: PS 2)
+11:51:13.893: 
+11:51:13.908: v4l2-input: /dev/video0: select timed out
+11:51:13.908: v4l2-input: /dev/video0: failed to log status
+11:51:13.992: v4l2-input: /dev/video0: select timed out
+11:51:13.992: v4l2-input: /dev/video0: failed to log status
+11:51:14.075: v4l2-input: /dev/video0: select timed out
+11:51:14.075: v4l2-input: /dev/video0: failed to log status
+11:51:14.159: v4l2-input: /dev/video0: select timed out
+11:51:14.159: v4l2-input: /dev/video0: failed to log status
+11:51:14.242: v4l2-input: /dev/video0: select timed out
+11:51:14.242: v4l2-input: /dev/video0: failed to log status
+11:51:14.326: v4l2-input: /dev/video0: select timed out
+11:51:14.326: v4l2-input: /dev/video0: failed to log status
+11:51:14.409: v4l2-input: /dev/video0: select timed out
+11:51:14.409: v4l2-input: /dev/video0: failed to log status
+11:51:14.492: v4l2-input: /dev/video0: select timed out
+11:51:14.493: v4l2-input: /dev/video0: failed to log status
+11:51:14.576: v4l2-input: /dev/video0: select timed out
+11:51:14.576: v4l2-input: /dev/video0: failed to log status
+11:51:14.659: v4l2-input: /dev/video0: select timed out
+11:51:14.659: v4l2-input: /dev/video0: failed to log status
+11:51:14.743: v4l2-input: /dev/video0: select timed out
+11:51:14.743: v4l2-input: /dev/video0: failed to log status
+11:51:14.826: v4l2-input: /dev/video0: select timed out
+11:51:14.826: v4l2-input: /dev/video0: failed to log status
+11:51:14.910: v4l2-input: /dev/video0: select timed out
+11:51:14.910: v4l2-input: /dev/video0: failed to log status
+11:51:14.993: v4l2-input: /dev/video0: select timed out
+11:51:14.993: v4l2-input: /dev/video0: failed to log status
+11:51:15.077: v4l2-input: /dev/video0: select timed out
+11:51:15.077: v4l2-input: /dev/video0: failed to log status
+11:51:15.160: v4l2-input: /dev/video0: select timed out
+11:51:15.160: v4l2-input: /dev/video0: failed to log status
+11:51:15.244: v4l2-input: /dev/video0: select timed out
+11:51:15.244: v4l2-input: /dev/video0: failed to log status
+11:51:15.327: v4l2-input: /dev/video0: select timed out
+11:51:15.327: v4l2-input: /dev/video0: failed to log status
+11:51:15.411: v4l2-input: /dev/video0: select timed out
+11:51:15.411: v4l2-input: /dev/video0: failed to log status
+11:51:15.494: v4l2-input: /dev/video0: select timed out
+11:51:15.494: v4l2-input: /dev/video0: failed to log status
+11:51:15.578: v4l2-input: /dev/video0: select timed out
+11:51:15.578: v4l2-input: /dev/video0: failed to log status
+11:51:15.661: v4l2-input: /dev/video0: select timed out
+11:51:15.661: v4l2-input: /dev/video0: failed to log status
+11:51:15.745: v4l2-input: /dev/video0: select timed out
+11:51:15.745: v4l2-input: /dev/video0: failed to log status
+11:51:15.828: v4l2-input: /dev/video0: select timed out
+11:51:15.828: v4l2-input: /dev/video0: failed to log status
+11:51:15.912: v4l2-input: /dev/video0: select timed out
+11:51:15.912: v4l2-input: /dev/video0: failed to log status
+11:51:15.995: v4l2-input: /dev/video0: select timed out
+11:51:15.995: v4l2-input: /dev/video0: failed to log status
+11:51:16.079: v4l2-input: /dev/video0: select timed out
+11:51:16.079: v4l2-input: /dev/video0: failed to log status
+11:51:16.162: v4l2-input: /dev/video0: select timed out
+11:51:16.162: v4l2-input: /dev/video0: failed to log status
+11:51:16.246: v4l2-input: /dev/video0: select timed out
+11:51:16.246: v4l2-input: /dev/video0: failed to log status
+11:51:16.329: v4l2-input: /dev/video0: select timed out
+11:51:16.329: v4l2-input: /dev/video0: failed to log status
+11:51:16.413: v4l2-input: /dev/video0: select timed out
+11:51:16.413: v4l2-input: /dev/video0: failed to log status
+11:51:16.496: v4l2-input: /dev/video0: select timed out
+11:51:16.496: v4l2-input: /dev/video0: failed to log status
+11:51:16.580: v4l2-input: /dev/video0: select timed out
+11:51:16.580: v4l2-input: /dev/video0: failed to log status
+11:51:16.663: v4l2-input: /dev/video0: select timed out
+11:51:16.663: v4l2-input: /dev/video0: failed to log status
+11:51:16.746: v4l2-input: /dev/video0: select timed out
+11:51:16.747: v4l2-input: /dev/video0: failed to log status
+11:51:16.830: v4l2-input: /dev/video0: select timed out
+11:51:16.830: v4l2-input: /dev/video0: failed to log status
+11:51:16.913: v4l2-input: /dev/video0: select timed out
+11:51:16.913: v4l2-input: /dev/video0: failed to log status
+11:51:16.997: v4l2-input: /dev/video0: select timed out
+11:51:16.997: v4l2-input: /dev/video0: failed to log status
+11:51:17.080: v4l2-input: /dev/video0: select timed out
+11:51:17.080: v4l2-input: /dev/video0: failed to log status
+11:51:17.164: v4l2-input: /dev/video0: select timed out
+11:51:17.164: v4l2-input: /dev/video0: failed to log status
+11:51:17.247: v4l2-input: /dev/video0: select timed out
+11:51:17.247: v4l2-input: /dev/video0: failed to log status
+11:51:17.331: v4l2-input: /dev/video0: select timed out
+11:51:17.331: v4l2-input: /dev/video0: failed to log status
+11:51:17.414: v4l2-input: /dev/video0: select timed out
+11:51:17.414: v4l2-input: /dev/video0: failed to log status
+11:51:17.498: v4l2-input: /dev/video0: select timed out
+11:51:17.498: v4l2-input: /dev/video0: failed to log status
+11:51:17.581: v4l2-input: /dev/video0: select timed out
+11:51:17.581: v4l2-input: /dev/video0: failed to log status
+11:51:17.665: v4l2-input: /dev/video0: select timed out
+11:51:17.665: v4l2-input: /dev/video0: failed to log status
+11:51:17.748: v4l2-input: /dev/video0: select timed out
+11:51:17.748: v4l2-input: /dev/video0: failed to log status
+11:51:17.832: v4l2-input: /dev/video0: select timed out
+11:51:17.832: v4l2-input: /dev/video0: failed to log status
+11:51:17.915: v4l2-input: /dev/video0: select timed out
+11:51:17.915: v4l2-input: /dev/video0: failed to log status
+11:51:17.999: v4l2-input: /dev/video0: select timed out
+11:51:17.999: v4l2-input: /dev/video0: failed to log status
+11:51:18.082: v4l2-input: /dev/video0: select timed out
+11:51:18.082: v4l2-input: /dev/video0: failed to log status
+11:51:18.166: v4l2-input: /dev/video0: select timed out
+11:51:18.166: v4l2-input: /dev/video0: failed to log status
+11:51:18.249: v4l2-input: /dev/video0: select timed out
+11:51:18.249: v4l2-input: /dev/video0: failed to log status
+11:51:18.333: v4l2-input: /dev/video0: select timed out
+11:51:18.333: v4l2-input: /dev/video0: failed to log status
+11:51:18.416: v4l2-input: /dev/video0: select timed out
+11:51:18.416: v4l2-input: /dev/video0: failed to log status
+11:51:18.500: v4l2-input: /dev/video0: select timed out
+11:51:18.500: v4l2-input: /dev/video0: failed to log status
+11:51:18.583: v4l2-input: /dev/video0: select timed out
+11:51:18.583: v4l2-input: /dev/video0: failed to log status
+11:51:18.667: v4l2-input: /dev/video0: select timed out
+11:51:18.667: v4l2-input: /dev/video0: failed to log status
+11:51:18.750: v4l2-input: /dev/video0: select timed out
+11:51:18.750: v4l2-input: /dev/video0: failed to log status
+11:51:18.833: v4l2-input: /dev/video0: select timed out
+11:51:18.834: v4l2-input: /dev/video0: failed to log status
+11:51:18.917: v4l2-input: /dev/video0: select timed out
+11:51:18.917: v4l2-input: /dev/video0: failed to log status
+11:51:19.000: v4l2-input: /dev/video0: select timed out
+11:51:19.000: v4l2-input: /dev/video0: failed to log status
+11:51:19.084: v4l2-input: /dev/video0: select timed out
+11:51:19.084: v4l2-input: /dev/video0: failed to log status
+11:51:19.167: v4l2-input: /dev/video0: select timed out
+11:51:19.167: v4l2-input: /dev/video0: failed to log status
+11:51:19.251: v4l2-input: /dev/video0: select timed out
+11:51:19.251: v4l2-input: /dev/video0: failed to log status
+11:51:19.334: v4l2-input: /dev/video0: select timed out
+11:51:19.334: v4l2-input: /dev/video0: failed to log status
+11:51:19.418: v4l2-input: /dev/video0: select timed out
+11:51:19.418: v4l2-input: /dev/video0: failed to log status
+11:51:19.501: v4l2-input: /dev/video0: select timed out
+11:51:19.501: v4l2-input: /dev/video0: failed to log status
+11:51:19.585: v4l2-input: /dev/video0: select timed out
+11:51:19.585: v4l2-input: /dev/video0: failed to log status
+11:51:19.668: v4l2-input: /dev/video0: select timed out
+11:51:19.668: v4l2-input: /dev/video0: failed to log status
+11:51:19.752: v4l2-input: /dev/video0: select timed out
+11:51:19.752: v4l2-input: /dev/video0: failed to log status
+11:51:19.835: v4l2-input: /dev/video0: select timed out
+11:51:19.835: v4l2-input: /dev/video0: failed to log status
+11:51:19.919: v4l2-input: /dev/video0: select timed out
+11:51:19.919: v4l2-input: /dev/video0: failed to log status
+11:51:20.002: v4l2-input: /dev/video0: select timed out
+11:51:20.002: v4l2-input: /dev/video0: failed to log status
+11:51:20.086: v4l2-input: /dev/video0: select timed out
+11:51:20.086: v4l2-input: /dev/video0: failed to log status
+11:51:20.169: v4l2-input: /dev/video0: select timed out
+11:51:20.169: v4l2-input: /dev/video0: failed to log status
+11:51:20.252: v4l2-input: /dev/video0: select timed out
+11:51:20.253: v4l2-input: /dev/video0: failed to log status
+11:51:20.336: v4l2-input: /dev/video0: select timed out
+11:51:20.336: v4l2-input: /dev/video0: failed to log status
+11:51:20.419: v4l2-input: /dev/video0: select timed out
+11:51:20.419: v4l2-input: /dev/video0: failed to log status
+11:51:20.503: v4l2-input: /dev/video0: select timed out
+11:51:20.503: v4l2-input: /dev/video0: failed to log status
+11:51:20.586: v4l2-input: /dev/video0: select timed out
+11:51:20.586: v4l2-input: /dev/video0: failed to log status
+11:51:20.670: v4l2-input: /dev/video0: select timed out
+11:51:20.670: v4l2-input: /dev/video0: failed to log status
+11:51:20.753: v4l2-input: /dev/video0: select timed out
+11:51:20.753: v4l2-input: /dev/video0: failed to log status
+11:51:20.837: v4l2-input: /dev/video0: select timed out
+11:51:20.837: v4l2-input: /dev/video0: failed to log status
+11:51:20.920: v4l2-input: /dev/video0: select timed out
+11:51:20.920: v4l2-input: /dev/video0: failed to log status
+11:51:21.004: v4l2-input: /dev/video0: select timed out
+11:51:21.004: v4l2-input: /dev/video0: failed to log status
+11:51:21.087: v4l2-input: /dev/video0: select timed out
+11:51:21.087: v4l2-input: /dev/video0: failed to log status
+11:51:21.171: v4l2-input: /dev/video0: select timed out
+11:51:21.171: v4l2-input: /dev/video0: failed to log status
+11:51:21.254: v4l2-input: /dev/video0: select timed out
+11:51:21.254: v4l2-input: /dev/video0: failed to log status
+11:51:21.338: v4l2-input: /dev/video0: select timed out
+11:51:21.338: v4l2-input: /dev/video0: failed to log status
+11:51:21.421: v4l2-input: /dev/video0: select timed out
+11:51:21.421: v4l2-input: /dev/video0: failed to log status
+11:51:21.505: v4l2-input: /dev/video0: select timed out
+11:51:21.505: v4l2-input: /dev/video0: failed to log status
+11:51:21.588: v4l2-input: /dev/video0: select timed out
+11:51:21.588: v4l2-input: /dev/video0: failed to log status
+11:51:21.671: v4l2-input: /dev/video0: select timed out
+11:51:21.671: v4l2-input: /dev/video0: failed to log status
+11:51:21.755: v4l2-input: /dev/video0: select timed out
+11:51:21.755: v4l2-input: /dev/video0: failed to log status
+11:51:21.838: v4l2-input: /dev/video0: select timed out
+11:51:21.838: v4l2-input: /dev/video0: failed to log status
+11:51:21.922: v4l2-input: /dev/video0: select timed out
+11:51:21.922: v4l2-input: /dev/video0: failed to log status
+11:51:22.005: v4l2-input: /dev/video0: select timed out
+11:51:22.005: v4l2-input: /dev/video0: failed to log status
+11:51:22.089: v4l2-input: /dev/video0: select timed out
+11:51:22.089: v4l2-input: /dev/video0: failed to log status
+11:51:22.172: v4l2-input: /dev/video0: select timed out
+11:51:22.172: v4l2-input: /dev/video0: failed to log status
+11:51:22.256: v4l2-input: /dev/video0: select timed out
+11:51:22.256: v4l2-input: /dev/video0: failed to log status
+11:51:22.339: v4l2-input: /dev/video0: select timed out
+11:51:22.339: v4l2-input: /dev/video0: failed to log status
+11:51:22.423: v4l2-input: /dev/video0: select timed out
+11:51:22.423: v4l2-input: /dev/video0: failed to log status
+11:51:22.506: v4l2-input: /dev/video0: select timed out
+11:51:22.506: v4l2-input: /dev/video0: failed to log status
+11:51:22.590: v4l2-input: /dev/video0: select timed out
+11:51:22.590: v4l2-input: /dev/video0: failed to log status
+11:51:22.673: v4l2-input: /dev/video0: select timed out
+11:51:22.673: v4l2-input: /dev/video0: failed to log status
+11:51:22.757: v4l2-input: /dev/video0: select timed out
+11:51:22.757: v4l2-input: /dev/video0: failed to log status
+11:51:22.840: v4l2-input: /dev/video0: select timed out
+11:51:22.840: v4l2-input: /dev/video0: failed to log status
+11:51:22.924: v4l2-input: /dev/video0: select timed out
+11:51:22.924: v4l2-input: /dev/video0: failed to log status
+11:51:23.007: v4l2-input: /dev/video0: select timed out
+11:51:23.007: v4l2-input: /dev/video0: failed to log status
+11:51:23.091: v4l2-input: /dev/video0: select timed out
+11:51:23.091: v4l2-input: /dev/video0: failed to log status
+11:51:23.174: v4l2-input: /dev/video0: select timed out
+11:51:23.174: v4l2-input: /dev/video0: failed to log status
+11:51:23.258: v4l2-input: /dev/video0: select timed out
+11:51:23.258: v4l2-input: /dev/video0: failed to log status
+11:51:23.341: v4l2-input: /dev/video0: select timed out
+11:51:23.341: v4l2-input: /dev/video0: failed to log status
+11:51:23.425: v4l2-input: /dev/video0: select timed out
+11:51:23.425: v4l2-input: /dev/video0: failed to log status
+11:51:23.508: v4l2-input: /dev/video0: select timed out
+11:51:23.508: v4l2-input: /dev/video0: failed to log status
+11:51:23.592: v4l2-input: /dev/video0: select timed out
+11:51:23.592: v4l2-input: /dev/video0: failed to log status
+11:51:23.675: v4l2-input: /dev/video0: select timed out
+11:51:23.675: v4l2-input: /dev/video0: failed to log status
+11:51:23.758: v4l2-input: /dev/video0: select timed out
+11:51:23.759: v4l2-input: /dev/video0: failed to log status
+11:51:23.842: v4l2-input: /dev/video0: select timed out
+11:51:23.842: v4l2-input: /dev/video0: failed to log status
+11:51:23.925: v4l2-input: /dev/video0: select timed out
+11:51:23.925: v4l2-input: /dev/video0: failed to log status
+11:51:24.009: v4l2-input: /dev/video0: select timed out
+11:51:24.009: v4l2-input: /dev/video0: failed to log status
+11:51:24.092: v4l2-input: /dev/video0: select timed out
+11:51:24.092: v4l2-input: /dev/video0: failed to log status
+11:51:24.176: v4l2-input: /dev/video0: select timed out
+11:51:24.176: v4l2-input: /dev/video0: failed to log status
+11:51:24.259: v4l2-input: /dev/video0: select timed out
+11:51:24.259: v4l2-input: /dev/video0: failed to log status
+11:51:24.343: v4l2-input: /dev/video0: select timed out
+11:51:24.343: v4l2-input: /dev/video0: failed to log status
+11:51:24.426: v4l2-input: /dev/video0: select timed out
+11:51:24.426: v4l2-input: /dev/video0: failed to log status
+11:51:24.510: v4l2-input: /dev/video0: select timed out
+11:51:24.510: v4l2-input: /dev/video0: failed to log status
+11:51:24.593: v4l2-input: /dev/video0: select timed out
+11:51:24.593: v4l2-input: /dev/video0: failed to log status
+11:51:24.677: v4l2-input: /dev/video0: select timed out
+11:51:24.677: v4l2-input: /dev/video0: failed to log status
+11:51:24.760: v4l2-input: /dev/video0: select timed out
+11:51:24.760: v4l2-input: /dev/video0: failed to log status
+11:51:24.844: v4l2-input: /dev/video0: select timed out
+11:51:24.844: v4l2-input: /dev/video0: failed to log status
+11:51:24.927: v4l2-input: /dev/video0: select timed out
+11:51:24.927: v4l2-input: /dev/video0: failed to log status
+11:51:25.011: v4l2-input: /dev/video0: select timed out
+11:51:25.011: v4l2-input: /dev/video0: failed to log status
+11:51:25.094: v4l2-input: /dev/video0: select timed out
+11:51:25.094: v4l2-input: /dev/video0: failed to log status
+11:51:25.178: v4l2-input: /dev/video0: select timed out
+11:51:25.178: v4l2-input: /dev/video0: failed to log status
+11:51:25.261: v4l2-input: /dev/video0: select timed out
+11:51:25.261: v4l2-input: /dev/video0: failed to log status
+11:51:25.345: v4l2-input: /dev/video0: select timed out
+11:51:25.345: v4l2-input: /dev/video0: failed to log status
+11:51:25.428: v4l2-input: /dev/video0: select timed out
+11:51:25.428: v4l2-input: /dev/video0: failed to log status
+11:51:25.512: v4l2-input: /dev/video0: select timed out
+11:51:25.512: v4l2-input: /dev/video0: failed to log status
+11:51:25.595: v4l2-input: /dev/video0: select timed out
+11:51:25.595: v4l2-input: /dev/video0: failed to log status
+11:51:25.679: v4l2-input: /dev/video0: select timed out
+11:51:25.679: v4l2-input: /dev/video0: failed to log status
+11:51:25.762: v4l2-input: /dev/video0: select timed out
+11:51:25.762: v4l2-input: /dev/video0: failed to log status
+11:51:25.846: v4l2-input: /dev/video0: select timed out
+11:51:25.846: v4l2-input: /dev/video0: failed to log status
+11:51:25.929: v4l2-input: /dev/video0: select timed out
+11:51:25.929: v4l2-input: /dev/video0: failed to log status
+11:51:26.012: v4l2-input: /dev/video0: select timed out
+11:51:26.012: v4l2-input: /dev/video0: failed to log status
+11:51:26.096: v4l2-input: /dev/video0: select timed out
+11:51:26.096: v4l2-input: /dev/video0: failed to log status
+11:51:26.179: v4l2-input: /dev/video0: select timed out
+11:51:26.179: v4l2-input: /dev/video0: failed to log status
+11:51:26.263: v4l2-input: /dev/video0: select timed out
+11:51:26.263: v4l2-input: /dev/video0: failed to log status
+11:51:26.346: v4l2-input: /dev/video0: select timed out
+11:51:26.346: v4l2-input: /dev/video0: failed to log status
+11:51:26.430: v4l2-input: /dev/video0: select timed out
+11:51:26.430: v4l2-input: /dev/video0: failed to log status
+11:51:26.513: v4l2-input: /dev/video0: select timed out
+11:51:26.513: v4l2-input: /dev/video0: failed to log status
+11:51:26.597: v4l2-input: /dev/video0: select timed out
+11:51:26.597: v4l2-input: /dev/video0: failed to log status
+11:51:26.680: v4l2-input: /dev/video0: select timed out
+11:51:26.680: v4l2-input: /dev/video0: failed to log status
+11:51:26.764: v4l2-input: /dev/video0: select timed out
+11:51:26.764: v4l2-input: /dev/video0: failed to log status
+11:51:26.847: v4l2-input: /dev/video0: select timed out
+11:51:26.847: v4l2-input: /dev/video0: failed to log status
+11:51:26.931: v4l2-input: /dev/video0: select timed out
+11:51:26.931: v4l2-input: /dev/video0: failed to log status
+11:51:27.014: v4l2-input: /dev/video0: select timed out
+11:51:27.014: v4l2-input: /dev/video0: failed to log status
+11:51:27.097: v4l2-input: /dev/video0: select timed out
+11:51:27.097: v4l2-input: /dev/video0: failed to log status
+11:51:27.181: v4l2-input: /dev/video0: select timed out
+11:51:27.181: v4l2-input: /dev/video0: failed to log status
+11:51:27.264: v4l2-input: /dev/video0: select timed out
+11:51:27.264: v4l2-input: /dev/video0: failed to log status
+11:51:27.348: v4l2-input: /dev/video0: select timed out
+11:51:27.348: v4l2-input: /dev/video0: failed to log status
+11:51:27.431: v4l2-input: /dev/video0: select timed out
+11:51:27.431: v4l2-input: /dev/video0: failed to log status
+11:51:27.515: v4l2-input: /dev/video0: select timed out
+11:51:27.515: v4l2-input: /dev/video0: failed to log status
+11:51:27.598: v4l2-input: /dev/video0: select timed out
+11:51:27.598: v4l2-input: /dev/video0: failed to log status
+11:51:27.682: v4l2-input: /dev/video0: select timed out
+11:51:27.682: v4l2-input: /dev/video0: failed to log status
+11:51:27.765: v4l2-input: /dev/video0: select timed out
+11:51:27.765: v4l2-input: /dev/video0: failed to log status
+11:51:27.849: v4l2-input: /dev/video0: select timed out
+11:51:27.849: v4l2-input: /dev/video0: failed to log status
+11:51:27.932: v4l2-input: /dev/video0: select timed out
+11:51:27.932: v4l2-input: /dev/video0: failed to log status
+11:51:28.016: v4l2-input: /dev/video0: select timed out
+11:51:28.016: v4l2-input: /dev/video0: failed to log status
+11:51:28.099: v4l2-input: /dev/video0: select timed out
+11:51:28.099: v4l2-input: /dev/video0: failed to log status
+11:51:28.183: v4l2-input: /dev/video0: select timed out
+11:51:28.183: v4l2-input: /dev/video0: failed to log status
+11:51:28.266: v4l2-input: /dev/video0: select timed out
+11:51:28.266: v4l2-input: /dev/video0: failed to log status
+11:51:28.349: v4l2-input: /dev/video0: select timed out
+11:51:28.349: v4l2-input: /dev/video0: failed to log status
+11:51:28.433: v4l2-input: /dev/video0: select timed out
+11:51:28.433: v4l2-input: /dev/video0: failed to log status
+11:51:28.516: v4l2-input: /dev/video0: select timed out
+11:51:28.516: v4l2-input: /dev/video0: failed to log status
+11:51:28.600: v4l2-input: /dev/video0: select timed out
+11:51:28.600: v4l2-input: /dev/video0: failed to log status
+11:51:28.683: v4l2-input: /dev/video0: select timed out
+11:51:28.683: v4l2-input: /dev/video0: failed to log status
+11:51:28.767: v4l2-input: /dev/video0: select timed out
+11:51:28.767: v4l2-input: /dev/video0: failed to log status
+11:51:28.850: v4l2-input: /dev/video0: select timed out
+11:51:28.850: v4l2-input: /dev/video0: failed to log status
+11:51:28.934: v4l2-input: /dev/video0: select timed out
+11:51:28.934: v4l2-input: /dev/video0: failed to log status
+11:51:29.017: v4l2-input: /dev/video0: select timed out
+11:51:29.017: v4l2-input: /dev/video0: failed to log status
+11:51:29.101: v4l2-input: /dev/video0: select timed out
+11:51:29.101: v4l2-input: /dev/video0: failed to log status
+11:51:29.184: v4l2-input: /dev/video0: select timed out
+11:51:29.184: v4l2-input: /dev/video0: failed to log status
+11:51:29.268: v4l2-input: /dev/video0: select timed out
+11:51:29.268: v4l2-input: /dev/video0: failed to log status
+11:51:29.351: v4l2-input: /dev/video0: select timed out
+11:51:29.351: v4l2-input: /dev/video0: failed to log status
+11:51:29.435: v4l2-input: /dev/video0: select timed out
+11:51:29.435: v4l2-input: /dev/video0: failed to log status
+11:51:29.518: v4l2-input: /dev/video0: select timed out
+11:51:29.518: v4l2-input: /dev/video0: failed to log status
+11:51:29.602: v4l2-input: /dev/video0: select timed out
+11:51:29.602: v4l2-input: /dev/video0: failed to log status
+11:51:29.685: v4l2-input: /dev/video0: select timed out
+11:51:29.685: v4l2-input: /dev/video0: failed to log status
+11:51:29.769: v4l2-input: /dev/video0: select timed out
+11:51:29.769: v4l2-input: /dev/video0: failed to log status
+11:51:29.852: v4l2-input: /dev/video0: select timed out
+11:51:29.852: v4l2-input: /dev/video0: failed to log status
+11:51:29.936: v4l2-input: /dev/video0: select timed out
+11:51:29.936: v4l2-input: /dev/video0: failed to log status
+11:51:30.019: v4l2-input: /dev/video0: select timed out
+11:51:30.019: v4l2-input: /dev/video0: failed to log status
+11:51:30.103: v4l2-input: /dev/video0: select timed out
+11:51:30.103: v4l2-input: /dev/video0: failed to log status
+11:51:30.186: v4l2-input: /dev/video0: select timed out
+11:51:30.186: v4l2-input: /dev/video0: failed to log status
+11:51:30.270: v4l2-input: /dev/video0: select timed out
+11:51:30.270: v4l2-input: /dev/video0: failed to log status
+11:51:30.353: v4l2-input: /dev/video0: select timed out
+11:51:30.353: v4l2-input: /dev/video0: failed to log status
+11:51:30.437: v4l2-input: /dev/video0: select timed out
+11:51:30.437: v4l2-input: /dev/video0: failed to log status
+11:51:30.520: v4l2-input: /dev/video0: select timed out
+11:51:30.520: v4l2-input: /dev/video0: failed to log status
+11:51:30.604: v4l2-input: /dev/video0: select timed out
+11:51:30.604: v4l2-input: /dev/video0: failed to log status
+11:51:30.687: v4l2-input: /dev/video0: select timed out
+11:51:30.687: v4l2-input: /dev/video0: failed to log status
+11:51:30.771: v4l2-input: /dev/video0: select timed out
+11:51:30.771: v4l2-input: /dev/video0: failed to log status
+11:51:30.854: v4l2-input: /dev/video0: select timed out
+11:51:30.854: v4l2-input: /dev/video0: failed to log status
+11:51:30.937: v4l2-input: /dev/video0: select timed out
+11:51:30.937: v4l2-input: /dev/video0: failed to log status
+11:51:31.021: v4l2-input: /dev/video0: select timed out
+11:51:31.021: v4l2-input: /dev/video0: failed to log status
+11:51:31.104: v4l2-input: /dev/video0: select timed out
+11:51:31.104: v4l2-input: /dev/video0: failed to log status
+11:51:31.188: v4l2-input: /dev/video0: select timed out
+11:51:31.188: v4l2-input: /dev/video0: failed to log status
+11:51:31.271: v4l2-input: /dev/video0: select timed out
+11:51:31.271: v4l2-input: /dev/video0: failed to log status
+11:51:31.355: v4l2-input: /dev/video0: select timed out
+11:51:31.355: v4l2-input: /dev/video0: failed to log status
+11:51:31.438: v4l2-input: /dev/video0: select timed out
+11:51:31.438: v4l2-input: /dev/video0: failed to log status
+11:51:31.522: v4l2-input: /dev/video0: select timed out
+11:51:31.522: v4l2-input: /dev/video0: failed to log status
+11:51:31.605: v4l2-input: /dev/video0: select timed out
+11:51:31.605: v4l2-input: /dev/video0: failed to log status
+11:51:31.689: v4l2-input: /dev/video0: select timed out
+11:51:31.689: v4l2-input: /dev/video0: failed to log status
+11:51:31.772: v4l2-input: /dev/video0: select timed out
+11:51:31.772: v4l2-input: /dev/video0: failed to log status
+11:51:31.856: v4l2-input: /dev/video0: select timed out
+11:51:31.856: v4l2-input: /dev/video0: failed to log status
+11:51:31.939: v4l2-input: /dev/video0: select timed out
+11:51:31.939: v4l2-input: /dev/video0: failed to log status
+11:51:32.023: v4l2-input: /dev/video0: select timed out
+11:51:32.023: v4l2-input: /dev/video0: failed to log status
+11:51:32.106: v4l2-input: /dev/video0: select timed out
+11:51:32.106: v4l2-input: /dev/video0: failed to log status
+11:51:32.190: v4l2-input: /dev/video0: select timed out
+11:51:32.190: v4l2-input: /dev/video0: failed to log status
+11:51:32.273: v4l2-input: /dev/video0: select timed out
+11:51:32.273: v4l2-input: /dev/video0: failed to log status
+11:51:32.357: v4l2-input: /dev/video0: select timed out
+11:51:32.357: v4l2-input: /dev/video0: failed to log status
+11:51:32.440: v4l2-input: /dev/video0: select timed out
+11:51:32.440: v4l2-input: /dev/video0: failed to log status
+11:51:32.524: v4l2-input: /dev/video0: select timed out
+11:51:32.524: v4l2-input: /dev/video0: failed to log status
+11:51:32.607: v4l2-input: /dev/video0: select timed out
+11:51:32.607: v4l2-input: /dev/video0: failed to log status
+11:51:32.691: v4l2-input: /dev/video0: select timed out
+11:51:32.691: v4l2-input: /dev/video0: failed to log status
+11:51:32.774: v4l2-input: /dev/video0: select timed out
+11:51:32.774: v4l2-input: /dev/video0: failed to log status
+11:51:32.857: v4l2-input: /dev/video0: select timed out
+11:51:32.858: v4l2-input: /dev/video0: failed to log status
+11:51:32.941: v4l2-input: /dev/video0: select timed out
+11:51:32.941: v4l2-input: /dev/video0: failed to log status
+11:51:33.024: v4l2-input: /dev/video0: select timed out
+11:51:33.024: v4l2-input: /dev/video0: failed to log status
+11:51:33.108: v4l2-input: /dev/video0: select timed out
+11:51:33.108: v4l2-input: /dev/video0: failed to log status
+11:51:33.191: v4l2-input: /dev/video0: select timed out
+11:51:33.191: v4l2-input: /dev/video0: failed to log status
+11:51:33.275: v4l2-input: /dev/video0: select timed out
+11:51:33.275: v4l2-input: /dev/video0: failed to log status
+11:51:33.358: v4l2-input: /dev/video0: select timed out
+11:51:33.358: v4l2-input: /dev/video0: failed to log status
+11:51:33.442: v4l2-input: /dev/video0: select timed out
+11:51:33.442: v4l2-input: /dev/video0: failed to log status
+11:51:33.525: v4l2-input: /dev/video0: select timed out
+11:51:33.525: v4l2-input: /dev/video0: failed to log status
+11:51:33.609: v4l2-input: /dev/video0: select timed out
+11:51:33.609: v4l2-input: /dev/video0: failed to log status
+11:51:33.692: v4l2-input: /dev/video0: select timed out
+11:51:33.692: v4l2-input: /dev/video0: failed to log status
+11:51:33.776: v4l2-input: /dev/video0: select timed out
+11:51:33.776: v4l2-input: /dev/video0: failed to log status
+11:51:33.859: v4l2-input: /dev/video0: select timed out
+11:51:33.859: v4l2-input: /dev/video0: failed to log status
+11:51:33.943: v4l2-input: /dev/video0: select timed out
+11:51:33.943: v4l2-input: /dev/video0: failed to log status
+11:51:34.026: v4l2-input: /dev/video0: select timed out
+11:51:34.026: v4l2-input: /dev/video0: failed to log status
+11:51:34.110: v4l2-input: /dev/video0: select timed out
+11:51:34.110: v4l2-input: /dev/video0: failed to log status
+11:51:34.193: v4l2-input: /dev/video0: select timed out
+11:51:34.193: v4l2-input: /dev/video0: failed to log status
+11:51:34.276: v4l2-input: /dev/video0: select timed out
+11:51:34.276: v4l2-input: /dev/video0: failed to log status
+11:51:34.360: v4l2-input: /dev/video0: select timed out
+11:51:34.360: v4l2-input: /dev/video0: failed to log status
+11:51:34.443: v4l2-input: /dev/video0: select timed out
+11:51:34.443: v4l2-input: /dev/video0: failed to log status
+11:51:34.527: v4l2-input: /dev/video0: select timed out
+11:51:34.527: v4l2-input: /dev/video0: failed to log status
+11:51:34.610: v4l2-input: /dev/video0: select timed out
+11:51:34.610: v4l2-input: /dev/video0: failed to log status
+11:51:34.694: v4l2-input: /dev/video0: select timed out
+11:51:34.694: v4l2-input: /dev/video0: failed to log status
+11:51:34.777: v4l2-input: /dev/video0: select timed out
+11:51:34.777: v4l2-input: /dev/video0: failed to log status
+11:51:34.861: v4l2-input: /dev/video0: select timed out
+11:51:34.861: v4l2-input: /dev/video0: failed to log status
+11:51:34.944: v4l2-input: /dev/video0: select timed out
+11:51:34.944: v4l2-input: /dev/video0: failed to log status
+11:51:35.028: v4l2-input: /dev/video0: select timed out
+11:51:35.028: v4l2-input: /dev/video0: failed to log status
+11:51:35.111: v4l2-input: /dev/video0: select timed out
+11:51:35.111: v4l2-input: /dev/video0: failed to log status
+11:51:35.195: v4l2-input: /dev/video0: select timed out
+11:51:35.195: v4l2-input: /dev/video0: failed to log status
+11:51:35.278: v4l2-input: /dev/video0: select timed out
+11:51:35.278: v4l2-input: /dev/video0: failed to log status
+11:51:35.362: v4l2-input: /dev/video0: select timed out
+11:51:35.362: v4l2-input: /dev/video0: failed to log status
+11:51:35.445: v4l2-input: /dev/video0: select timed out
+11:51:35.445: v4l2-input: /dev/video0: failed to log status
+11:51:35.529: v4l2-input: /dev/video0: select timed out
+11:51:35.529: v4l2-input: /dev/video0: failed to log status
+11:51:35.612: v4l2-input: /dev/video0: select timed out
+11:51:35.612: v4l2-input: /dev/video0: failed to log status
+11:51:35.696: v4l2-input: /dev/video0: select timed out
+11:51:35.696: v4l2-input: /dev/video0: failed to log status
+11:51:35.779: v4l2-input: /dev/video0: select timed out
+11:51:35.779: v4l2-input: /dev/video0: failed to log status
+11:51:35.862: v4l2-input: /dev/video0: select timed out
+11:51:35.862: v4l2-input: /dev/video0: failed to log status
+11:51:35.946: v4l2-input: /dev/video0: select timed out
+11:51:35.946: v4l2-input: /dev/video0: failed to log status
+11:51:36.029: v4l2-input: /dev/video0: select timed out
+11:51:36.029: v4l2-input: /dev/video0: failed to log status
+11:51:36.113: v4l2-input: /dev/video0: select timed out
+11:51:36.113: v4l2-input: /dev/video0: failed to log status
+11:51:36.196: v4l2-input: /dev/video0: select timed out
+11:51:36.196: v4l2-input: /dev/video0: failed to log status
+11:51:36.280: v4l2-input: /dev/video0: select timed out
+11:51:36.280: v4l2-input: /dev/video0: failed to log status
+11:51:36.363: v4l2-input: /dev/video0: select timed out
+11:51:36.363: v4l2-input: /dev/video0: failed to log status
+11:51:36.447: v4l2-input: /dev/video0: select timed out
+11:51:36.447: v4l2-input: /dev/video0: failed to log status
+11:51:36.530: v4l2-input: /dev/video0: select timed out
+11:51:36.530: v4l2-input: /dev/video0: failed to log status
+11:51:36.614: v4l2-input: /dev/video0: select timed out
+11:51:36.614: v4l2-input: /dev/video0: failed to log status
+11:51:36.697: v4l2-input: /dev/video0: select timed out
+11:51:36.697: v4l2-input: /dev/video0: failed to log status
+11:51:36.781: v4l2-input: /dev/video0: select timed out
+11:51:36.781: v4l2-input: /dev/video0: failed to log status
+11:51:36.864: v4l2-input: /dev/video0: select timed out
+11:51:36.864: v4l2-input: /dev/video0: failed to log status
+11:51:36.948: v4l2-input: /dev/video0: select timed out
+11:51:36.948: v4l2-input: /dev/video0: failed to log status
+11:51:37.031: v4l2-input: /dev/video0: select timed out
+11:51:37.031: v4l2-input: /dev/video0: failed to log status
+11:51:37.115: v4l2-input: /dev/video0: select timed out
+11:51:37.115: v4l2-input: /dev/video0: failed to log status
+11:51:37.198: v4l2-input: /dev/video0: select timed out
+11:51:37.198: v4l2-input: /dev/video0: failed to log status
+11:51:37.282: v4l2-input: /dev/video0: select timed out
+11:51:37.282: v4l2-input: /dev/video0: failed to log status
+11:51:37.365: v4l2-input: /dev/video0: select timed out
+11:51:37.365: v4l2-input: /dev/video0: failed to log status
+11:51:37.448: v4l2-input: /dev/video0: select timed out
+11:51:37.448: v4l2-input: /dev/video0: failed to log status
+11:51:37.532: v4l2-input: /dev/video0: select timed out
+11:51:37.532: v4l2-input: /dev/video0: failed to log status
+11:51:37.615: v4l2-input: /dev/video0: select timed out
+11:51:37.615: v4l2-input: /dev/video0: failed to log status
+11:51:37.699: v4l2-input: /dev/video0: select timed out
+11:51:37.699: v4l2-input: /dev/video0: failed to log status
+11:51:37.782: v4l2-input: /dev/video0: select timed out
+11:51:37.782: v4l2-input: /dev/video0: failed to log status
+11:51:37.866: v4l2-input: /dev/video0: select timed out
+11:51:37.866: v4l2-input: /dev/video0: failed to log status
+11:51:37.949: v4l2-input: /dev/video0: select timed out
+11:51:37.949: v4l2-input: /dev/video0: failed to log status
+11:51:38.033: v4l2-input: /dev/video0: select timed out
+11:51:38.033: v4l2-input: /dev/video0: failed to log status
+11:51:38.116: v4l2-input: /dev/video0: select timed out
+11:51:38.116: v4l2-input: /dev/video0: failed to log status
+11:51:38.200: v4l2-input: /dev/video0: select timed out
+11:51:38.200: v4l2-input: /dev/video0: failed to log status
+11:51:38.283: v4l2-input: /dev/video0: select timed out
+11:51:38.283: v4l2-input: /dev/video0: failed to log status
+11:51:38.367: v4l2-input: /dev/video0: select timed out
+11:51:38.367: v4l2-input: /dev/video0: failed to log status
+11:51:38.450: v4l2-input: /dev/video0: select timed out
+11:51:38.450: v4l2-input: /dev/video0: failed to log status
+11:51:38.534: v4l2-input: /dev/video0: select timed out
+11:51:38.534: v4l2-input: /dev/video0: failed to log status
+11:51:38.617: v4l2-input: /dev/video0: select timed out
+11:51:38.617: v4l2-input: /dev/video0: failed to log status
+11:51:38.701: v4l2-input: /dev/video0: select timed out
+11:51:38.701: v4l2-input: /dev/video0: failed to log status
+11:51:38.784: v4l2-input: /dev/video0: select timed out
+11:51:38.784: v4l2-input: /dev/video0: failed to log status
+11:51:38.868: v4l2-input: /dev/video0: select timed out
+11:51:38.868: v4l2-input: /dev/video0: failed to log status
+11:51:38.951: v4l2-input: /dev/video0: select timed out
+11:51:38.951: v4l2-input: /dev/video0: failed to log status
+11:51:39.034: v4l2-input: /dev/video0: select timed out
+11:51:39.035: v4l2-input: /dev/video0: failed to log status
+11:51:39.118: v4l2-input: /dev/video0: select timed out
+11:51:39.118: v4l2-input: /dev/video0: failed to log status
+11:51:39.201: v4l2-input: /dev/video0: select timed out
+11:51:39.201: v4l2-input: /dev/video0: failed to log status
+11:51:39.285: v4l2-input: /dev/video0: select timed out
+11:51:39.285: v4l2-input: /dev/video0: failed to log status
+11:51:39.368: v4l2-input: /dev/video0: select timed out
+11:51:39.368: v4l2-input: /dev/video0: failed to log status
+11:51:39.452: v4l2-input: /dev/video0: select timed out
+11:51:39.452: v4l2-input: /dev/video0: failed to log status
+11:51:39.535: v4l2-input: /dev/video0: select timed out
+11:51:39.535: v4l2-input: /dev/video0: failed to log status
+11:51:39.619: v4l2-input: /dev/video0: select timed out
+11:51:39.619: v4l2-input: /dev/video0: failed to log status
+11:51:39.702: v4l2-input: /dev/video0: select timed out
+11:51:39.702: v4l2-input: /dev/video0: failed to log status
+11:51:39.786: v4l2-input: /dev/video0: select timed out
+11:51:39.786: v4l2-input: /dev/video0: failed to log status
+11:51:39.869: v4l2-input: /dev/video0: select timed out
+11:51:39.869: v4l2-input: /dev/video0: failed to log status
+11:51:39.953: v4l2-input: /dev/video0: select timed out
+11:51:39.953: v4l2-input: /dev/video0: failed to log status
+11:51:40.036: v4l2-input: /dev/video0: select timed out
+11:51:40.036: v4l2-input: /dev/video0: failed to log status
+11:51:40.120: v4l2-input: /dev/video0: select timed out
+11:51:40.120: v4l2-input: /dev/video0: failed to log status
+11:51:40.203: v4l2-input: /dev/video0: select timed out
+11:51:40.203: v4l2-input: /dev/video0: failed to log status
+11:51:40.287: v4l2-input: /dev/video0: select timed out
+11:51:40.287: v4l2-input: /dev/video0: failed to log status
+11:51:40.370: v4l2-input: /dev/video0: select timed out
+11:51:40.370: v4l2-input: /dev/video0: failed to log status
+11:51:40.454: v4l2-input: /dev/video0: select timed out
+11:51:40.454: v4l2-input: /dev/video0: failed to log status
+11:51:40.537: v4l2-input: /dev/video0: select timed out
+11:51:40.537: v4l2-input: /dev/video0: failed to log status
+11:51:40.621: v4l2-input: /dev/video0: select timed out
+11:51:40.621: v4l2-input: /dev/video0: failed to log status
+11:51:40.704: v4l2-input: /dev/video0: select timed out
+11:51:40.704: v4l2-input: /dev/video0: failed to log status
+11:51:40.788: v4l2-input: /dev/video0: select timed out
+11:51:40.788: v4l2-input: /dev/video0: failed to log status
+11:51:40.871: v4l2-input: /dev/video0: select timed out
+11:51:40.871: v4l2-input: /dev/video0: failed to log status
+11:51:40.955: v4l2-input: /dev/video0: select timed out
+11:51:40.955: v4l2-input: /dev/video0: failed to log status
+11:51:41.038: v4l2-input: /dev/video0: select timed out
+11:51:41.038: v4l2-input: /dev/video0: failed to log status
+11:51:41.121: v4l2-input: /dev/video0: select timed out
+11:51:41.121: v4l2-input: /dev/video0: failed to log status
+11:51:41.205: v4l2-input: /dev/video0: select timed out
+11:51:41.205: v4l2-input: /dev/video0: failed to log status
+11:51:41.288: v4l2-input: /dev/video0: select timed out
+11:51:41.288: v4l2-input: /dev/video0: failed to log status
+11:51:41.372: v4l2-input: /dev/video0: select timed out
+11:51:41.372: v4l2-input: /dev/video0: failed to log status
+11:51:41.455: v4l2-input: /dev/video0: select timed out
+11:51:41.455: v4l2-input: /dev/video0: failed to log status
+11:51:41.539: v4l2-input: /dev/video0: select timed out
+11:51:41.539: v4l2-input: /dev/video0: failed to log status
+11:51:41.622: v4l2-input: /dev/video0: select timed out
+11:51:41.622: v4l2-input: /dev/video0: failed to log status
+11:51:41.706: v4l2-input: /dev/video0: select timed out
+11:51:41.706: v4l2-input: /dev/video0: failed to log status
+11:51:41.789: v4l2-input: /dev/video0: select timed out
+11:51:41.789: v4l2-input: /dev/video0: failed to log status
+11:51:41.873: v4l2-input: /dev/video0: select timed out
+11:51:41.873: v4l2-input: /dev/video0: failed to log status
+11:51:41.956: v4l2-input: /dev/video0: select timed out
+11:51:41.956: v4l2-input: /dev/video0: failed to log status
+11:51:42.040: v4l2-input: /dev/video0: select timed out
+11:51:42.040: v4l2-input: /dev/video0: failed to log status
+11:51:42.123: v4l2-input: /dev/video0: select timed out
+11:51:42.123: v4l2-input: /dev/video0: failed to log status
+11:51:42.207: v4l2-input: /dev/video0: select timed out
+11:51:42.207: v4l2-input: /dev/video0: failed to log status
+11:51:42.290: v4l2-input: /dev/video0: select timed out
+11:51:42.290: v4l2-input: /dev/video0: failed to log status
+11:51:42.374: v4l2-input: /dev/video0: select timed out
+11:51:42.374: v4l2-input: /dev/video0: failed to log status
+11:51:42.457: v4l2-input: /dev/video0: select timed out
+11:51:42.457: v4l2-input: /dev/video0: failed to log status
+11:51:42.541: v4l2-input: /dev/video0: select timed out
+11:51:42.541: v4l2-input: /dev/video0: failed to log status
+11:51:42.624: v4l2-input: /dev/video0: select timed out
+11:51:42.624: v4l2-input: /dev/video0: failed to log status
+11:51:42.708: v4l2-input: /dev/video0: select timed out
+11:51:42.708: v4l2-input: /dev/video0: failed to log status
+11:51:42.791: v4l2-input: /dev/video0: select timed out
+11:51:42.791: v4l2-input: /dev/video0: failed to log status
+11:51:42.875: v4l2-input: /dev/video0: select timed out
+11:51:42.875: v4l2-input: /dev/video0: failed to log status
+11:51:42.958: v4l2-input: /dev/video0: select timed out
+11:51:42.958: v4l2-input: /dev/video0: failed to log status
+11:51:43.042: v4l2-input: /dev/video0: select timed out
+11:51:43.042: v4l2-input: /dev/video0: failed to log status
+11:51:43.125: v4l2-input: /dev/video0: select timed out
+11:51:43.125: v4l2-input: /dev/video0: failed to log status
+11:51:43.208: v4l2-input: /dev/video0: select timed out
+11:51:43.208: v4l2-input: /dev/video0: failed to log status
+11:51:43.292: v4l2-input: /dev/video0: select timed out
+11:51:43.292: v4l2-input: /dev/video0: failed to log status
+11:51:43.375: v4l2-input: /dev/video0: select timed out
+11:51:43.375: v4l2-input: /dev/video0: failed to log status
+11:51:43.459: v4l2-input: /dev/video0: select timed out
+11:51:43.459: v4l2-input: /dev/video0: failed to log status
+11:51:43.542: v4l2-input: /dev/video0: select timed out
+11:51:43.542: v4l2-input: /dev/video0: failed to log status
+11:51:43.626: v4l2-input: /dev/video0: select timed out
+11:51:43.626: v4l2-input: /dev/video0: failed to log status
+11:51:43.709: v4l2-input: /dev/video0: select timed out
+11:51:43.709: v4l2-input: /dev/video0: failed to log status
+11:51:43.793: v4l2-input: /dev/video0: select timed out
+11:51:43.793: v4l2-input: /dev/video0: failed to log status
+11:51:43.876: v4l2-input: /dev/video0: select timed out
+11:51:43.876: v4l2-input: /dev/video0: failed to log status
+11:51:43.960: v4l2-input: /dev/video0: select timed out
+11:51:43.960: v4l2-input: /dev/video0: failed to log status
+11:51:44.043: v4l2-input: /dev/video0: select timed out
+11:51:44.043: v4l2-input: /dev/video0: failed to log status
+11:51:44.127: v4l2-input: /dev/video0: select timed out
+11:51:44.127: v4l2-input: /dev/video0: failed to log status
+11:51:44.210: v4l2-input: /dev/video0: select timed out
+11:51:44.210: v4l2-input: /dev/video0: failed to log status
+11:51:44.294: v4l2-input: /dev/video0: select timed out
+11:51:44.294: v4l2-input: /dev/video0: failed to log status
+11:51:44.377: v4l2-input: /dev/video0: select timed out
+11:51:44.377: v4l2-input: /dev/video0: failed to log status
+11:51:44.461: v4l2-input: /dev/video0: select timed out
+11:51:44.461: v4l2-input: /dev/video0: failed to log status
+11:51:44.544: v4l2-input: /dev/video0: select timed out
+11:51:44.544: v4l2-input: /dev/video0: failed to log status
+11:51:44.628: v4l2-input: /dev/video0: select timed out
+11:51:44.628: v4l2-input: /dev/video0: failed to log status
+11:51:44.711: v4l2-input: /dev/video0: select timed out
+11:51:44.711: v4l2-input: /dev/video0: failed to log status
+11:51:44.795: v4l2-input: /dev/video0: select timed out
+11:51:44.795: v4l2-input: /dev/video0: failed to log status
+11:51:44.878: v4l2-input: /dev/video0: select timed out
+11:51:44.878: v4l2-input: /dev/video0: failed to log status
+11:51:44.962: v4l2-input: /dev/video0: select timed out
+11:51:44.962: v4l2-input: /dev/video0: failed to log status
+11:51:45.045: v4l2-input: /dev/video0: select timed out
+11:51:45.045: v4l2-input: /dev/video0: failed to log status
+11:51:45.129: v4l2-input: /dev/video0: select timed out
+11:51:45.129: v4l2-input: /dev/video0: failed to log status
+11:51:45.212: v4l2-input: /dev/video0: select timed out
+11:51:45.212: v4l2-input: /dev/video0: failed to log status
+11:51:45.295: v4l2-input: /dev/video0: select timed out
+11:51:45.296: v4l2-input: /dev/video0: failed to log status
+11:51:45.379: v4l2-input: /dev/video0: select timed out
+11:51:45.379: v4l2-input: /dev/video0: failed to log status
+11:51:45.462: v4l2-input: /dev/video0: select timed out
+11:51:45.462: v4l2-input: /dev/video0: failed to log status
+11:51:45.546: v4l2-input: /dev/video0: select timed out
+11:51:45.546: v4l2-input: /dev/video0: failed to log status
+11:51:45.629: v4l2-input: /dev/video0: select timed out
+11:51:45.629: v4l2-input: /dev/video0: failed to log status
+11:51:45.713: v4l2-input: /dev/video0: select timed out
+11:51:45.713: v4l2-input: /dev/video0: failed to log status
+11:51:45.796: v4l2-input: /dev/video0: select timed out
+11:51:45.796: v4l2-input: /dev/video0: failed to log status
+11:51:45.880: v4l2-input: /dev/video0: select timed out
+11:51:45.880: v4l2-input: /dev/video0: failed to log status
+11:51:45.963: v4l2-input: /dev/video0: select timed out
+11:51:45.963: v4l2-input: /dev/video0: failed to log status
+11:51:46.047: v4l2-input: /dev/video0: select timed out
+11:51:46.047: v4l2-input: /dev/video0: failed to log status
+11:51:46.130: v4l2-input: /dev/video0: select timed out
+11:51:46.130: v4l2-input: /dev/video0: failed to log status
+11:51:46.214: v4l2-input: /dev/video0: select timed out
+11:51:46.214: v4l2-input: /dev/video0: failed to log status
+11:51:46.297: v4l2-input: /dev/video0: select timed out
+11:51:46.297: v4l2-input: /dev/video0: failed to log status
+11:51:46.381: v4l2-input: /dev/video0: select timed out
+11:51:46.381: v4l2-input: /dev/video0: failed to log status
+11:51:46.464: v4l2-input: /dev/video0: select timed out
+11:51:46.464: v4l2-input: /dev/video0: failed to log status
+11:51:46.548: v4l2-input: /dev/video0: select timed out
+11:51:46.548: v4l2-input: /dev/video0: failed to log status
+11:51:46.631: v4l2-input: /dev/video0: select timed out
+11:51:46.631: v4l2-input: /dev/video0: failed to log status
+11:51:46.715: v4l2-input: /dev/video0: select timed out
+11:51:46.715: v4l2-input: /dev/video0: failed to log status
+11:51:46.798: v4l2-input: /dev/video0: select timed out
+11:51:46.798: v4l2-input: /dev/video0: failed to log status
+11:51:46.882: v4l2-input: /dev/video0: select timed out
+11:51:46.882: v4l2-input: /dev/video0: failed to log status
+11:51:46.965: v4l2-input: /dev/video0: select timed out
+11:51:46.965: v4l2-input: /dev/video0: failed to log status
+11:51:47.049: v4l2-input: /dev/video0: select timed out
+11:51:47.049: v4l2-input: /dev/video0: failed to log status
+11:51:47.108: v4l2-input: /dev/video3 seems to not support video capture
+11:51:47.108: v4l2-input: /dev/video1 seems to not support video capture
+11:51:47.132: v4l2-input: /dev/video0: select timed out
+11:51:47.132: v4l2-input: /dev/video0: failed to log status
+11:51:47.212: v4l2-input: Found device 'HD Pro Webcam C920' at /dev/video2
+11:51:47.213: v4l2-input: Found device 'Live Gamer MINI' at /dev/video0
+11:51:47.213: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+11:51:47.214: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+11:51:47.214: v4l2-input: Pixelformat: Motion-JPEG (available)
+11:51:47.214: v4l2-input: Pixelformat: H.264 (available)
+11:51:47.214: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+11:51:47.214: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+11:51:47.214: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+11:51:47.214: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+11:51:47.214: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+11:51:47.215: v4l2-input: Found input 'Camera 1' (Index 0)
+11:51:47.215: v4l2-input: Pixelformat: Motion-JPEG (available)
+11:51:47.215: v4l2-input: Pixelformat: H.264 (available)
+11:51:47.215: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+11:51:47.215: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+11:51:47.215: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+11:51:47.215: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+11:51:47.215: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+11:51:47.216: v4l2-input: /dev/video0: select timed out
+11:51:47.216: v4l2-input: /dev/video0: failed to log status
+11:51:47.299: v4l2-input: /dev/video0: select timed out
+11:51:47.299: v4l2-input: /dev/video0: failed to log status
+11:51:47.382: v4l2-input: /dev/video0: select timed out
+11:51:47.383: v4l2-input: /dev/video0: failed to log status
+11:51:47.466: v4l2-input: /dev/video0: select timed out
+11:51:47.466: v4l2-input: /dev/video0: failed to log status
+11:51:47.549: v4l2-input: /dev/video0: select timed out
+11:51:47.549: v4l2-input: /dev/video0: failed to log status
+11:51:47.633: v4l2-input: /dev/video0: select timed out
+11:51:47.633: v4l2-input: /dev/video0: failed to log status
+11:51:47.716: v4l2-input: /dev/video0: select timed out
+11:51:47.716: v4l2-input: /dev/video0: failed to log status
+11:51:47.800: v4l2-input: /dev/video0: select timed out
+11:51:47.800: v4l2-input: /dev/video0: failed to log status
+11:51:47.883: v4l2-input: /dev/video0: select timed out
+11:51:47.883: v4l2-input: /dev/video0: failed to log status
+11:51:47.967: v4l2-input: /dev/video0: select timed out
+11:51:47.967: v4l2-input: /dev/video0: failed to log status
+11:51:48.050: v4l2-input: /dev/video0: select timed out
+11:51:48.050: v4l2-input: /dev/video0: failed to log status
+11:51:48.134: v4l2-input: /dev/video0: select timed out
+11:51:48.134: v4l2-input: /dev/video0: failed to log status
+11:51:48.217: v4l2-input: /dev/video0: select timed out
+11:51:48.217: v4l2-input: /dev/video0: failed to log status
+11:51:48.301: v4l2-input: /dev/video0: select timed out
+11:51:48.301: v4l2-input: /dev/video0: failed to log status
+11:51:48.384: v4l2-input: /dev/video0: select timed out
+11:51:48.384: v4l2-input: /dev/video0: failed to log status
+11:51:48.468: v4l2-input: /dev/video0: select timed out
+11:51:48.468: v4l2-input: /dev/video0: failed to log status
+11:51:48.551: v4l2-input: /dev/video0: select timed out
+11:51:48.551: v4l2-input: /dev/video0: failed to log status
+11:51:48.635: v4l2-input: /dev/video0: select timed out
+11:51:48.635: v4l2-input: /dev/video0: failed to log status
+11:51:48.718: v4l2-input: /dev/video0: select timed out
+11:51:48.718: v4l2-input: /dev/video0: failed to log status
+11:51:48.802: v4l2-input: /dev/video0: select timed out
+11:51:48.802: v4l2-input: /dev/video0: failed to log status
+11:51:48.885: v4l2-input: /dev/video0: select timed out
+11:51:48.885: v4l2-input: /dev/video0: failed to log status
+11:51:48.969: v4l2-input: /dev/video0: select timed out
+11:51:48.969: v4l2-input: /dev/video0: failed to log status
+11:51:49.052: v4l2-input: /dev/video0: select timed out
+11:51:49.052: v4l2-input: /dev/video0: failed to log status
+11:51:49.136: v4l2-input: /dev/video0: select timed out
+11:51:49.136: v4l2-input: /dev/video0: failed to log status
+11:51:49.219: v4l2-input: /dev/video0: select timed out
+11:51:49.219: v4l2-input: /dev/video0: failed to log status
+11:51:49.303: v4l2-input: /dev/video0: select timed out
+11:51:49.303: v4l2-input: /dev/video0: failed to log status
+11:51:49.386: v4l2-input: /dev/video0: select timed out
+11:51:49.386: v4l2-input: /dev/video0: failed to log status
+11:51:49.470: v4l2-input: /dev/video0: select timed out
+11:51:49.470: v4l2-input: /dev/video0: failed to log status
+11:51:49.553: v4l2-input: /dev/video0: select timed out
+11:51:49.553: v4l2-input: /dev/video0: failed to log status
+11:51:49.637: v4l2-input: /dev/video0: select timed out
+11:51:49.637: v4l2-input: /dev/video0: failed to log status
+11:51:49.720: v4l2-input: /dev/video0: select timed out
+11:51:49.720: v4l2-input: /dev/video0: failed to log status
+11:51:49.803: v4l2-input: /dev/video0: select timed out
+11:51:49.803: v4l2-input: /dev/video0: failed to log status
+11:51:49.887: v4l2-input: /dev/video0: select timed out
+11:51:49.887: v4l2-input: /dev/video0: failed to log status
+11:51:49.970: v4l2-input: /dev/video0: select timed out
+11:51:49.970: v4l2-input: /dev/video0: failed to log status
+11:51:50.054: v4l2-input: /dev/video0: select timed out
+11:51:50.054: v4l2-input: /dev/video0: failed to log status
+11:51:50.137: v4l2-input: /dev/video0: select timed out
+11:51:50.137: v4l2-input: /dev/video0: failed to log status
+11:51:50.221: v4l2-input: /dev/video0: select timed out
+11:51:50.221: v4l2-input: /dev/video0: failed to log status
+11:51:50.304: v4l2-input: /dev/video0: select timed out
+11:51:50.304: v4l2-input: /dev/video0: failed to log status
+11:51:50.388: v4l2-input: /dev/video0: select timed out
+11:51:50.388: v4l2-input: /dev/video0: failed to log status
+11:51:50.471: v4l2-input: /dev/video0: select timed out
+11:51:50.471: v4l2-input: /dev/video0: failed to log status
+11:51:50.555: v4l2-input: /dev/video0: select timed out
+11:51:50.555: v4l2-input: /dev/video0: failed to log status
+11:51:50.638: v4l2-input: /dev/video0: select timed out
+11:51:50.638: v4l2-input: /dev/video0: failed to log status
+11:51:50.722: v4l2-input: /dev/video0: select timed out
+11:51:50.722: v4l2-input: /dev/video0: failed to log status
+11:51:50.805: v4l2-input: /dev/video0: select timed out
+11:51:50.805: v4l2-input: /dev/video0: failed to log status
+11:51:50.889: v4l2-input: /dev/video0: select timed out
+11:51:50.889: v4l2-input: /dev/video0: failed to log status
+11:51:50.972: v4l2-input: /dev/video0: select timed out
+11:51:50.972: v4l2-input: /dev/video0: failed to log status
+11:51:51.056: v4l2-input: /dev/video0: select timed out
+11:51:51.056: v4l2-input: /dev/video0: failed to log status
+11:51:51.139: v4l2-input: /dev/video0: select timed out
+11:51:51.139: v4l2-input: /dev/video0: failed to log status
+11:51:51.223: v4l2-input: /dev/video0: select timed out
+11:51:51.223: v4l2-input: /dev/video0: failed to log status
+11:51:51.306: v4l2-input: /dev/video0: select timed out
+11:51:51.306: v4l2-input: /dev/video0: failed to log status
+11:51:51.390: v4l2-input: /dev/video0: select timed out
+11:51:51.390: v4l2-input: /dev/video0: failed to log status
+11:51:51.473: v4l2-input: /dev/video0: select timed out
+11:51:51.473: v4l2-input: /dev/video0: failed to log status
+11:51:51.556: v4l2-input: /dev/video0: select timed out
+11:51:51.557: v4l2-input: /dev/video0: failed to log status
+11:51:51.640: v4l2-input: /dev/video0: select timed out
+11:51:51.640: v4l2-input: /dev/video0: failed to log status
+11:51:51.640: v4l2-input: /dev/video0: Stopped capture after 0 frames
+11:51:51.642: v4l2-input: Start capture from /dev/video0
+11:51:51.643: v4l2-input: Input: 0
+11:51:56.958: v4l2-input: Unable to set format
+11:51:56.958: v4l2-input: Initialization failed, errno: Input/output error
+11:51:59.346: v4l2-input: Device /dev/video0 disconnected
+11:52:05.419: v4l2-input: Device /dev/video0 reconnected
+11:52:05.419: v4l2-input: Start capture from /dev/video0
+11:52:05.420: v4l2-input: Input: 0
+11:52:05.441: v4l2-input: Resolution: 1920x1080
+11:52:05.441: v4l2-input: Pixelformat: MJPG
+11:52:05.441: v4l2-input: Linesize: 0 Bytes
+11:52:05.441: v4l2-input: Framerate: 60.00 fps
+11:52:05.444: v4l2-input: /dev/video0: select timeout set to 83333 (5x frame periods)
+11:52:05.528: v4l2-input: /dev/video0: select timed out
+11:52:05.528: v4l2-input: /dev/video0: failed to log status
+11:52:05.611: v4l2-input: /dev/video0: select timed out
+11:52:05.611: v4l2-input: /dev/video0: failed to log status
+11:52:08.655: v4l2-input: /dev/video0: select timed out
+11:52:08.655: v4l2-input: /dev/video0: failed to log status
+11:52:08.844: v4l2-input: /dev/video0: select timed out
+11:52:08.844: v4l2-input: /dev/video0: failed to log status
+11:52:13.422: v4l2-input: /dev/video0: select timed out
+11:52:13.422: v4l2-input: /dev/video0: failed to log status
+11:52:13.506: v4l2-input: /dev/video0: select timed out
+11:52:13.506: v4l2-input: /dev/video0: failed to log status
+11:52:13.589: v4l2-input: /dev/video0: select timed out
+11:52:13.589: v4l2-input: /dev/video0: failed to log status
+11:52:27.808: [obs-nvenc: 'simple_video_recording'] settings:
+11:52:27.808: 	codec:        H264
+11:52:27.808: 	rate_control: CQP
+11:52:27.808: 	cqp:          23
+11:52:27.808: 	keyint:       250
+11:52:27.808: 	preset:       p5
+11:52:27.808: 	tuning:       hq
+11:52:27.808: 	multipass:    qres
+11:52:27.808: 	profile:      high
+11:52:27.808: 	width:        1920
+11:52:27.808: 	height:       1080
+11:52:27.808: 	b-frames:     2
+11:52:27.808: 	b-ref-mode:   0
+11:52:27.808: 	lookahead:    true (8 frames)
+11:52:27.808: 	aq:           true
+11:52:27.808: 
+11:52:27.847: libfdk_aac encoder created
+11:52:27.847: libfdk_aac bitrate: 192, channels: 2
+11:52:27.868: ==== Recording Start ===============================================
+11:52:27.868: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/tontonleric/2025-10-26 11-52-27.mkv'...
+11:53:02.661: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+11:53:02.661: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+11:53:02.661: pulse-am: Started Monitoring in 'alsa_output.pci-0000_2d_00.4.analog-stereo'
+11:53:02.661: User changed audio monitoring for source 'PS 2' to: monitor and output
+11:53:25.459: v4l2-input: /dev/video0: select timed out
+11:53:25.459: v4l2-input: /dev/video0: failed to log status
+11:53:25.542: v4l2-input: /dev/video0: select timed out
+11:53:25.542: v4l2-input: /dev/video0: failed to log status
+11:53:25.600: v4l2-input: /dev/video0: failed to dequeue buffer
+11:53:25.600: v4l2-input: /dev/video0: Stopped capture after 4768 frames
+11:53:25.600: v4l2-helpers: unable to stop stream
+11:53:25.608: v4l2-input: Device /dev/video0 disconnected
+11:54:11.436: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/tontonleric/2025-10-26 11-52-27.mkv' stopped
+11:54:11.436: Output 'simple_file_output': stopping
+11:54:11.436: Output 'simple_file_output': Total frames output: 6198
+11:54:11.436: Output 'simple_file_output': Total drawn frames: 6212 (6214 attempted)
+11:54:11.436: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 2 (0.0%)
+11:54:11.436: Video stopped, number of skipped frames due to encoding lag: 2/6213 (0.0%)
+11:54:11.437: ==== Recording Stop ================================================
+11:54:11.683: libfdk_aac encoder destroyed
+11:54:12.677: ==== Shutting down ==================================================
+11:54:12.764: pulse-input: Stopped recording from 'alsa_input.usb-AVerMedia_Technologies__Inc._Live_Gamer_MINI_5313550401320-03.analog-stereo'
+11:54:12.764: pulse-input: Got 2610 packets with 3132000 frames
+11:54:12.764: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_2d_00.4.analog-stereo'
+11:54:12.764: pulse-am: Got 0 packets with 0 frames
+11:54:12.781: All scene data cleared
+11:54:12.781: ------------------------------------------------
+11:54:12.880: [obs-websocket] [obs_module_unload] Shutting down...
+11:54:12.881: Tried to call obs_frontend_remove_event_callback with no callbacks!
+11:54:12.881: [obs-websocket] [obs_module_unload] Finished shutting down.
+11:54:12.884: [Scripting] Total detached callbacks: 0
+11:54:12.884: Freeing OBS context data
+11:54:12.943: == Profiler Results =============================
+11:54:12.943: run_program_init: 1345.62 ms
+11:54:12.943:  ┣OBSApp::AppInit: 15.456 ms
+11:54:12.943:  ┃ ┗OBSApp::InitLocale: 1.706 ms
+11:54:12.943:  ┗OBSApp::OBSInit: 1281.14 ms
+11:54:12.943:    ┣obs_startup: 1.409 ms
+11:54:12.943:    ┗OBSBasic::OBSInit: 1252.98 ms
+11:54:12.943:      ┣OBSBasic::InitBasicConfig: 0.847 ms
+11:54:12.943:      ┣OBSBasic::ResetAudio: 0.253 ms
+11:54:12.943:      ┣OBSBasic::ResetVideo: 206.912 ms
+11:54:12.943:      ┃ ┗obs_init_graphics: 206.504 ms
+11:54:12.943:      ┃   ┗shader compilation: 19.496 ms
+11:54:12.943:      ┣OBSBasic::InitOBSCallbacks: 0.002 ms
+11:54:12.943:      ┣OBSBasic::InitHotkeys: 0.014 ms
+11:54:12.943:      ┣obs_load_all_modules2: 691.268 ms
+11:54:12.943:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+11:54:12.943:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+11:54:12.943:      ┃ ┣obs_init_module(decklink.so): 0.084 ms
+11:54:12.943:      ┃ ┣obs_init_module(frontend-tools.so): 62.544 ms
+11:54:12.943:      ┃ ┣obs_init_module(image-source.so): 0.004 ms
+11:54:12.943:      ┃ ┣obs_init_module(linux-alsa.so): 0 ms
+11:54:12.943:      ┃ ┣obs_init_module(linux-capture.so): 0.363 ms
+11:54:12.943:      ┃ ┣obs_init_module(linux-jack.so): 0 ms
+11:54:12.943:      ┃ ┣obs_init_module(linux-pipewire.so): 3.663 ms
+11:54:12.943:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+11:54:12.943:      ┃ ┣obs_init_module(linux-v4l2.so): 4.37 ms
+11:54:12.943:      ┃ ┣obs_init_module(obs-ffmpeg.so): 1.914 ms
+11:54:12.943:      ┃ ┣obs_init_module(obs-filters.so): 0.011 ms
+11:54:12.943:      ┃ ┣obs_init_module(obs-libfdk.so): 0 ms
+11:54:12.943:      ┃ ┣obs_init_module(obs-nvenc.so): 531.606 ms
+11:54:12.943:      ┃ ┃ ┗nvenc_check: 531.598 ms
+11:54:12.943:      ┃ ┣obs_init_module(obs-outputs.so): 0.003 ms
+11:54:12.943:      ┃ ┣obs_init_module(obs-qsv11.so): 0.953 ms
+11:54:12.943:      ┃ ┣obs_init_module(obs-transitions.so): 0.004 ms
+11:54:12.943:      ┃ ┣obs_init_module(obs-vst.so): 0.001 ms
+11:54:12.943:      ┃ ┣obs_init_module(obs-webrtc.so): 0.003 ms
+11:54:12.943:      ┃ ┣obs_init_module(obs-websocket.so): 3.768 ms
+11:54:12.943:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+11:54:12.943:      ┃ ┣obs_init_module(rtmp-services.so): 1.024 ms
+11:54:12.943:      ┃ ┗obs_init_module(text-freetype2.so): 0.023 ms
+11:54:12.943:      ┣OBSBasic::InitService: 1.309 ms
+11:54:12.943:      ┣OBSBasic::ResetOutputs: 0.168 ms
+11:54:12.943:      ┣OBSBasic::CreateHotkeys: 0.02 ms
+11:54:12.943:      ┣OBSBasic::InitPrimitives: 0.089 ms
+11:54:12.943:      ┗OBSBasic::Load: 134.924 ms
+11:54:12.943: obs_hotkey_thread(25 ms): min=0.059 ms, median=0.081 ms, max=26.648 ms, 99th percentile=0.148 ms, 99.9721% below 25 ms
+11:54:12.943: audio_thread(Audio): min=0.003 ms, median=0.055 ms, max=68.002 ms, 99th percentile=0.238 ms
+11:54:12.943:  ┗receive_audio: min=0.003 ms, median=0.049 ms, max=0.11 ms, 99th percentile=0.077 ms, 0.57421 calls per parent call
+11:54:12.943:    ┣buffer_audio: min=0 ms, median=0 ms, max=0.008 ms, 99th percentile=0.001 ms
+11:54:12.943:    ┗do_encode: min=0.033 ms, median=0.048 ms, max=0.109 ms, 99th percentile=0.075 ms
+11:54:12.943:      ┣encode(simple_aac_recording0): min=0.032 ms, median=0.045 ms, max=0.107 ms, 99th percentile=0.067 ms
+11:54:12.943:      ┗send_packet: min=0 ms, median=0.002 ms, max=0.02 ms, 99th percentile=0.011 ms
+11:54:12.943: obs_graphics_thread(16.6667 ms): min=0.092 ms, median=0.64 ms, max=5393.18 ms, 99th percentile=1.404 ms, 99.8475% below 16.667 ms
+11:54:12.943:  ┣tick_sources: min=0 ms, median=0.003 ms, max=5383.31 ms, 99th percentile=0.008 ms
+11:54:12.944:  ┣output_frame: min=0.046 ms, median=0.165 ms, max=80.555 ms, 99th percentile=0.833 ms
+11:54:12.944:  ┃ ┗gs_context(video->graphics): min=0.046 ms, median=0.163 ms, max=80.553 ms, 99th percentile=0.832 ms
+11:54:12.944:  ┃   ┣render_video: min=0.018 ms, median=0.122 ms, max=16.452 ms, 99th percentile=0.778 ms
+11:54:12.944:  ┃   ┃ ┣render_main_texture: min=0.014 ms, median=0.047 ms, max=16.448 ms, 99th percentile=0.706 ms
+11:54:12.944:  ┃   ┃ ┣render_convert_texture: min=0.031 ms, median=0.04 ms, max=1.525 ms, 99th percentile=0.083 ms, 0.592165 calls per parent call
+11:54:12.944:  ┃   ┃ ┗output_gpu_encoders: min=0 ms, median=0.003 ms, max=0.033 ms, 99th percentile=0.004 ms, 0.592165 calls per parent call
+11:54:12.944:  ┃   ┗gs_flush: min=0.002 ms, median=0.004 ms, max=1.917 ms, 99th percentile=0.017 ms
+11:54:12.944:  ┗render_displays: min=0.02 ms, median=0.367 ms, max=50.708 ms, 99th percentile=0.61 ms
+11:54:12.944: obs_gpu_encode_thread(16.6667 ms): min=0.087 ms, median=0.649 ms, max=79.522 ms, 99th percentile=0.881 ms, 99.9678% below 16.667 ms
+11:54:12.944:  ┣gpu_encode_frame: min=0.086 ms, median=0.644 ms, max=79.52 ms, 99th percentile=0.876 ms
+11:54:12.944:  ┗send_packet: min=0.001 ms, median=0.002 ms, max=3.823 ms, 99th percentile=0.013 ms
+11:54:12.944: =================================================
+11:54:12.944: == Profiler Time Between Calls ==================
+11:54:12.944: obs_hotkey_thread(25 ms): min=25.079 ms, median=25.141 ms, max=51.708 ms, 99.4288% within ±2% of 25 ms (0% lower, 0.57119% higher)
+11:54:12.944: obs_graphics_thread(16.6667 ms): min=1.723 ms, median=16.667 ms, max=5393.18 ms, 99.695% within ±2% of 16.667 ms (0.162044% lower, 0.14298% higher)
+11:54:12.944: obs_gpu_encode_thread(16.6667 ms): min=0.088 ms, median=16.666 ms, max=80.755 ms, 90.1642% within ±2% of 16.667 ms (4.94205% lower, 4.89375% higher)
+11:54:12.944: =================================================
+11:54:12.950: Number of memory leaks: 0
