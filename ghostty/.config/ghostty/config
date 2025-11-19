@@ -1,3 +1,7 @@
 window-decoration = false
-theme = catppuccin-mocha
-font-size = 14
+theme = dracula
+font-size = 16
+background-image = ../../../../ImageRepo/Wallpaper/Standard/JV/Layton/wallhaven-3ldooy.png
+background-image-opacity = 0.2
+background-image-fit = cover
+

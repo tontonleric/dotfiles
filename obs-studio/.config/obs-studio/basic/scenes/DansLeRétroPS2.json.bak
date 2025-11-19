@@ -78,7 +78,7 @@
                         "source_uuid": "6aa35e08-b915-4bcb-871a-cdf2a453cce0",
                         "visible": true,
                         "locked": false,
-                        "rot": 122.28636932373047,
+                        "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
                             "y": 1080.0
@@ -94,28 +94,28 @@
                         "id": 6,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1.0,
-                            "y": 0.5
+                            "x": 240.0,
+                            "y": 0.0
                         },
                         "pos_rel": {
-                            "x": -1.7755745649337769,
-                            "y": -0.9993622303009033
+                            "x": -1.3333333730697632,
+                            "y": -1.0
                         },
                         "scale": {
-                            "x": 1.0,
+                            "x": 0.75,
                             "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 1.0,
+                            "x": 0.75,
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0.0018518518190830946,
+                            "y": 0.0018518518190830946
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -245,7 +245,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -12,
+    "scaling_level": -3,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {
