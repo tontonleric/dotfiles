@@ -13,7 +13,7 @@ pgrep -x picom >/dev/null || picom --config ~/.config/picom/picom.conf &
 pgrep -x dunst >/dev/null || dunst &
 pgrep -x fcitx5 >/dev/null || fcitx5 -d &
 pgrep -x 1password >/dev/null || 1password &
-# pgrep -x solaar >/dev/null || solaar & <= en attendand une update
+pgrep -x solaar >/dev/null || solaar &
 pgrep -x ckb-next >/dev/null || ckb-next &
 
 # Configuration écran virtuel
