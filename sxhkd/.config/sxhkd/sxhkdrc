@@ -130,5 +130,8 @@ super + alt + shift + 2
 # Affiche d'informations
 #
 super + F1
-  ~/Storages/Projects/dotfiles/scripts/displayhelp.sh
+  ~/Projects/dotfiles/scripts/displayhelp.sh
+
+super + F12
+  flameshot screen --path /home/tontonleric/Downloads/
 
