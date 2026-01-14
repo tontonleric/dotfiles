@@ -9,7 +9,7 @@
     "name": "DansLeRétro-PS2",
     "sources": [
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "Scene",
             "uuid": "7bd803a3-f7c7-42a0-a446-b5944ac179d7",
             "id": "scene",
@@ -155,7 +155,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "PS 2",
             "uuid": "ea623f83-97d7-48d6-9c46-e51abb02c652",
             "id": "pulse_input_capture",
@@ -186,7 +186,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "Video Capture Device (V4L2)",
             "uuid": "6aa35e08-b915-4bcb-871a-cdf2a453cce0",
             "id": "v4l2_input",

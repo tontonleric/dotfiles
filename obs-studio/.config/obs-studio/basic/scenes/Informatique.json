@@ -9,7 +9,7 @@
     "name": "Informatique",
     "sources": [
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "Scene",
             "uuid": "d8d58ff2-d6ea-435b-a759-52f31e47c5a0",
             "id": "scene",
@@ -98,13 +98,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "Window Capture (Xcomposite)",
             "uuid": "1aec4453-fa68-4185-9920-9d856340cbbb",
             "id": "xcomposite_input",
             "versioned_id": "xcomposite_input",
             "settings": {
-                "capture_window": "102760494\r\nisadmission-partial.yaml - KedgeIA - Salesforce - Visual Studio Code\r\ncode"
+                "capture_window": "46139800\r\nAgentforce Builder — Mozilla Firefox\r\nNavigator"
             },
             "mixers": 0,
             "sync": 0,
