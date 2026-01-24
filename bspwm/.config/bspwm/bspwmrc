@@ -3,7 +3,7 @@
 pgrep -x sxhkd >/dev/null || sxhkd &
 $HOME/.config/polybar/launch.sh
 setxkbmap us -variant alt-intl
-xrandr --output DP-4 --mode 5120x1440 --rate 120
+xrandr --output DP-4 --mode 5120x1440 --rate 60
 xset s off
 xset -dpms
 pgrep -x feh >/dev/null || feh --bg-scale ~/Projects/ImageRepo/Wallpaper/Ultrawide/SimonStalenhag/wallhaven-lm1z2l.jpg &

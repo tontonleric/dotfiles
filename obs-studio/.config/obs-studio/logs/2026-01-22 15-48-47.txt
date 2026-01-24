@@ -1,0 +1,114 @@
+15:48:47.320: Platform: Wayland
+15:48:47.320: CPU Name: AMD Ryzen 9 5950X 16-Core Processor
+15:48:47.320: CPU Speed: 5006.224MHz
+15:48:47.320: Physical Cores: 16, Logical Cores: 32
+15:48:47.321: Physical Memory: 32006MB Total, 12196MB Free
+15:48:47.321: Kernel Version: Linux 6.18.6-arch1-1
+15:48:47.321: Distribution: "Arch Linux" Unknown
+15:48:47.321: Desktop Environment: Hyprland (Hyprland)
+15:48:47.321: Session Type: wayland
+15:48:47.321: Current Date/Time: 2026-01-22, 03:48:47 PM
+15:48:47.321: Browser Hardware Acceleration: true
+15:48:47.321: Qt Version: 6.10.1 (runtime), 6.10.1 (compiled)
+15:48:47.321: Portable mode: false
+15:48:47.350: OBS 32.0.4 (linux)
+15:48:47.350: ---------------------------------
+15:48:47.351: ---------------------------------
+15:48:47.351: audio settings reset:
+15:48:47.351: 	samples per sec: 48000
+15:48:47.351: 	speakers:        2
+15:48:47.351: 	max buffering:   960 milliseconds
+15:48:47.351: 	buffering type:  dynamically increasing
+15:48:47.352: ---------------------------------
+15:48:47.352: Initializing OpenGL...
+15:48:47.352: Using EGL/Wayland
+15:48:47.406: Initialized EGL 1.5
+15:48:47.482: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+15:48:47.482: OpenGL loaded successfully, version 3.3.0 NVIDIA 590.48.01, shading language 3.30 NVIDIA via Cg compiler
+15:48:47.502: ---------------------------------
+15:48:47.502: video settings reset:
+15:48:47.502: 	base resolution:   1920x1080
+15:48:47.502: 	output resolution: 1920x1080
+15:48:47.502: 	downscale filter:  Bicubic
+15:48:47.502: 	fps:               60/1
+15:48:47.502: 	format:            NV12
+15:48:47.502: 	YUV mode:          Rec. 709/Partial
+15:48:47.502: NV12 texture support enabled
+15:48:47.502: P010 texture support not available
+15:48:47.503: Audio monitoring device:
+15:48:47.503: 	name: Default
+15:48:47.503: 	id: default
+15:48:47.540: ---------------------------------
+15:48:47.541: Failed to load 'en-US' text for module: 'decklink-captions.so'
+15:48:47.543: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+15:48:47.544: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:48:47.544: Failed to initialize module 'decklink.so'
+15:48:47.625: [pipewire] No capture sources available
+15:48:47.631: v4l2loopback not installed, virtual camera not registered
+15:48:47.640: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+15:48:47.640: FFmpeg VAAPI H264 encoding not supported
+15:48:47.640: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+15:48:47.640: FFmpeg VAAPI AV1 encoding not supported
+15:48:47.640: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+15:48:47.640: FFmpeg VAAPI HEVC encoding not supported
+15:48:47.889: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 13.10, AV1 supported: false
+15:48:47.908: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+15:48:47.908: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.10.1 | Qt version (run-time): 6.10.1
+15:48:47.908: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+15:48:47.911: [obs-websocket] [obs_module_load] Module loaded.
+15:48:47.915: ---------------------------------
+15:48:47.915:   Loaded Modules:
+15:48:47.915:     text-freetype2.so
+15:48:47.915:     rtmp-services.so
+15:48:47.915:     obs-x264.so
+15:48:47.915:     obs-websocket.so
+15:48:47.915:     obs-webrtc.so
+15:48:47.915:     obs-vst.so
+15:48:47.915:     obs-transitions.so
+15:48:47.915:     obs-qsv11.so
+15:48:47.915:     obs-outputs.so
+15:48:47.915:     obs-nvenc.so
+15:48:47.915:     obs-libfdk.so
+15:48:47.915:     obs-filters.so
+15:48:47.915:     obs-ffmpeg.so
+15:48:47.915:     linux-v4l2.so
+15:48:47.915:     linux-pulseaudio.so
+15:48:47.915:     linux-pipewire.so
+15:48:47.915:     linux-jack.so
+15:48:47.915:     linux-capture.so
+15:48:47.915:     linux-alsa.so
+15:48:47.915:     image-source.so
+15:48:47.915:     frontend-tools.so
+15:48:47.915:     decklink-output-ui.so
+15:48:47.915:     decklink-captions.so
+15:48:47.915: ---------------------------------
+15:48:47.915: ---------------------------------
+15:48:47.915: Available Encoders:
+15:48:47.915:   Video Encoders:
+15:48:47.915: 	- ffmpeg_svt_av1 (SVT-AV1)
+15:48:47.915: 	- ffmpeg_aom_av1 (AOM AV1)
+15:48:47.915: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+15:48:47.915: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+15:48:47.915: 	- obs_x264 (x264)
+15:48:47.915:   Audio Encoders:
+15:48:47.915: 	- ffmpeg_aac (FFmpeg AAC)
+15:48:47.915: 	- ffmpeg_opus (FFmpeg Opus)
+15:48:47.915: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+15:48:47.915: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+15:48:47.915: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+15:48:47.915: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+15:48:47.916: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+15:48:47.916: 	- libfdk_aac (libfdk AAC)
+15:48:47.916: ==== Startup complete ===============================================
+15:48:47.949: All scene data cleared
+15:48:47.950: ------------------------------------------------
+15:48:47.951: Source ID 'xcomposite_input' not found
+15:48:47.951: Failed to create source 'Window Capture (Xcomposite)'!
+15:48:47.951: Switched to scene 'Scene'
+15:48:47.951: ------------------------------------------------
+15:48:47.951: Loaded scenes:
+15:48:47.951: - scene 'Scene':
+15:48:47.951:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+15:48:47.951: ------------------------------------------------
+15:48:59.578: User Removed source 'Window Capture (Xcomposite)' (xcomposite_input) from scene 'Scene'
+15:49:20.244: The Wayland connection broke. Did the Wayland compositor die?
