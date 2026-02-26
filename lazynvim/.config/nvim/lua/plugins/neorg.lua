@@ -18,5 +18,9 @@ return {
         },
       },
     },
+    dependencies = {
+      "nvim-neorg/tree-sitter-norg",
+      "nvim-neorg/tree-sitter-norg-meta",
+    },
   },
 }

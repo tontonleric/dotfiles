@@ -1,6 +1,6 @@
 window-decoration = false
 theme = dracula
-font-size = 16
+font-size = 12
 background-image = ../../../../ImageRepo/Wallpaper/Standard/JV/Layton/wallhaven-3ldooy.png
 background-image-opacity = 0.2
 background-image-fit = cover
