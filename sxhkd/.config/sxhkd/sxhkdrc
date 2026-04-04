@@ -121,10 +121,10 @@ super + {Left,Down,Up,Right}
 # Gestion de la résolution
 #
 super + alt + shift + 1
-  xrandr --output DP-4 --mode 5120x1440 --rate 120
+  xrandr --output DP-4 --mode 5120x1440 --rate 60
 
 super + alt + shift + 2
-  xrandr --output DP-4 --mode 2560x1440 --rate 120
+  xrandr --output DP-4 --mode 2560x1440 --rate 60
 
 #
 # Affiche d'informations
