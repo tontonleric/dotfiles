@@ -108,5 +108,6 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 
+alias claude-ollama-local='ollama launch claude --model rafw007/qwen36-a3b-claude-coder:latest'
 alias claude-ollama='ollama launch claude --model kimi-k2.7-code:cloud'
 alias ls='colorls -l --gs'

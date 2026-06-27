@@ -133,5 +133,5 @@ super + F1
   ~/Projects/dotfiles/scripts/displayhelp.sh
 
 super + F12
-  flameshot screen --path /home/tontonleric/Downloads/
+  spectacle
 
