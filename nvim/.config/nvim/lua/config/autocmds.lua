@@ -13,5 +13,6 @@ vim.api.nvim_create_autocmd("FileType", {
   callback = function()
     vim.opt_local.spell = true
     vim.opt_local.spelllang = "fr"
+    vim.opt_local.colorcolumn = "80"
   end,
 })
