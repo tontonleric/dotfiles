@@ -107,7 +107,8 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
 fi
 
 source $ZSH/oh-my-zsh.sh
-source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+# source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 alias claude-ollama-local='ollama launch claude --model rafw007/qwen36-a3b-claude-coder:latest'
 alias claude-ollama='ollama launch claude --model kimi-k2.7-code:cloud'
